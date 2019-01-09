@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="0" xmlns="urn:schemas-highjump-com:webwise-usergroup">
+  <Description>Administrators</Description>
+  <WebPages>
+    <WebPage WebPageId="1" />
+    <WebPage WebPageId="2" />
+    <WebPage WebPageId="3" />
+    <WebPage WebPageId="4" />
+    <WebPage WebPageId="5" />
+    <WebPage WebPageId="6" />
+    <WebPage WebPageId="7" />
+    <WebPage WebPageId="8" />
+    <WebPage WebPageId="9" />
+    <WebPage WebPageId="10" />
+    <WebPage WebPageId="11" />
+    <WebPage WebPageId="12" />
+  </WebPages>
+</UserGroup>

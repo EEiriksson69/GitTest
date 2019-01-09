@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-highjump-com:webwise-resource-list">
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.Title">
+    <ResourceValue>Add/Edit Recipients</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.SqlStatement.StatementText.default">
+    <ResourceValue>WHERE
+	to_id = N'~v_vchTo_ID~'
+	AND wh_id = N'~v_vchWhse_ID~'</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.SqlStatement.InputParameters.default">
+    <ResourceValue>v_vchTo_ID~v_vchWhse_ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.SqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.SqlStatement.FieldParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.Column.email_address.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.Column.email_address.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.Column.email_address.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.Column.email_address.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.Column.to_id.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.Column.to_id.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.Column.to_id.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.Column.to_id.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.Column.wh_id.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.Column.wh_id.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.Column.wh_id.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.Column.wh_id.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.Column.email_address.Title">
+    <ResourceValue>Email Address</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.Column.to_id.Title">
+    <ResourceValue>Recipient ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.Column.to_id.DefaultValueSql.StatementText.default">
+    <ResourceValue>SELECT
+MAX (to_id)+1
+FROM t_en_recipients</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.Column.to_id.DefaultValueSql.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.Column.to_id.DefaultValueSql.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.Column.to_id.DefaultValueSql.FieldParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.Column.wh_id.Title">
+    <ResourceValue>Warehouse ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.Column.wh_id.PicklistSql.StatementText.default">
+    <ResourceValue>SELECT 
+DISTINCT wh_id
+FROM
+t_whse</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.Column.wh_id.PicklistSql.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.Column.wh_id.PicklistSql.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.7.Column.wh_id.PicklistSql.FieldParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.Title">
+    <ResourceValue>Add/Edit Recipients</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.SqlStatement.StatementText.default">
+    <ResourceValue>WHERE
+	to_id = N'~v_vchTo_ID~'
+	AND wh_id = N'~v_vchWhse_ID~'</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.SqlStatement.InputParameters.default">
+    <ResourceValue>v_vchTo_ID~v_vchWhse_ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.SqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.SqlStatement.FieldParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.Column.email_address.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.Column.email_address.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.Column.email_address.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.Column.email_address.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="" ResourceId="Page.7.Column.to_id.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.Column.to_id.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.Column.to_id.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.Column.to_id.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="" ResourceId="Page.7.Column.wh_id.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.Column.wh_id.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.Column.wh_id.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.Column.wh_id.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="" ResourceId="Page.7.Column.email_address.Title">
+    <ResourceValue>Email Address</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.Column.to_id.Title">
+    <ResourceValue>Recipient ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.Column.to_id.DefaultValueSql.StatementText.default">
+    <ResourceValue>SELECT
+MAX (to_id)+1
+FROM t_en_recipients</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.Column.to_id.DefaultValueSql.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.Column.to_id.DefaultValueSql.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.Column.to_id.DefaultValueSql.FieldParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.Column.wh_id.Title">
+    <ResourceValue>Warehouse ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.Column.wh_id.PicklistSql.StatementText.default">
+    <ResourceValue>SELECT 
+DISTINCT wh_id
+FROM
+t_whse</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.Column.wh_id.PicklistSql.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.Column.wh_id.PicklistSql.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.7.Column.wh_id.PicklistSql.FieldParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+</ResourceList>

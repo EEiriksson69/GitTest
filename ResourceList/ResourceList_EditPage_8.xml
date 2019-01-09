@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-highjump-com:webwise-resource-list">
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.Title">
+    <ResourceValue>Add/Edit Subscriptions</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.SqlStatement.StatementText.default">
+    <ResourceValue>WHERE
+    to_id = N'~v_vchTo_ID~'
+    AND email_id = N'~v_vchEmail_ID~'</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.SqlStatement.InputParameters.default">
+    <ResourceValue>v_vchTo_ID~v_vchEmail_ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.SqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.SqlStatement.FieldParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.Column.email_id.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.Column.email_id.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.Column.email_id.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.Column.email_id.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.Column.to_id.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.Column.to_id.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.Column.to_id.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.Column.to_id.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.Column.email_id.Title">
+    <ResourceValue>Email Template</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.Column.email_id.Picklist.">
+    <ResourceValue>&lt;Select a Template&gt;</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.Column.email_id.PicklistSql.StatementText.default">
+    <ResourceValue>SELECT email_name, email_id
+FROM t_en_email
+WHERE email_id = ISNULL(NULLIF(0~email_id~,0),email_id)
+  AND NOT EXISTS (SELECT * FROM t_en_subscription s INNER JOIN t_en_recipients r ON r.to_id = s.to_id WHERE r.email_address = '~email_address~' AND s.email_id = t_en_email.email_id)
+ORDER BY email_name</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.Column.email_id.PicklistSql.InputParameters.default">
+    <ResourceValue>email_id~email_address</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.Column.email_id.PicklistSql.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.Column.email_id.PicklistSql.FieldParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.Column.to_id.Title">
+    <ResourceValue>Email Address</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.Column.to_id.Picklist.">
+    <ResourceValue>&lt;Select Recipient Address&gt;</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.Column.to_id.PicklistSql.StatementText.default">
+    <ResourceValue>SELECT email_address, to_id, wh_id
+FROM t_en_recipients
+WHERE email_address LIKE '~email_address~%'
+  AND NOT EXISTS (SELECT * FROM t_en_subscription s WHERE s.to_id = t_en_recipients.to_id AND email_id = NULLIF(0~email_id~,0))
+ORDER BY email_address</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.Column.to_id.PicklistSql.InputParameters.default">
+    <ResourceValue>email_address~email_id</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.Column.to_id.PicklistSql.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.8.Column.to_id.PicklistSql.FieldParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.8.Title">
+    <ResourceValue>Add/Edit Subscriptions</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.8.SqlStatement.StatementText.default">
+    <ResourceValue>WHERE
+    to_id = N'~v_vchTo_ID~'
+    AND email_id = N'~v_vchEmail_ID~'</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.8.SqlStatement.InputParameters.default">
+    <ResourceValue>v_vchTo_ID~v_vchEmail_ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.8.SqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.8.SqlStatement.FieldParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.8.Column.email_id.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.8.Column.email_id.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.8.Column.email_id.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.8.Column.email_id.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="" ResourceId="Page.8.Column.to_id.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.8.Column.to_id.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.8.Column.to_id.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.8.Column.to_id.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="" ResourceId="Page.8.Column.email_id.Title">
+    <ResourceValue>Email Template</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.8.Column.email_id.Picklist.">
+    <ResourceValue>&lt;Select a Template&gt;</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.8.Column.email_id.PicklistSql.StatementText.default">
+    <ResourceValue>SELECT email_name, email_id
+FROM t_en_email
+WHERE email_id = ISNULL(NULLIF(0~email_id~,0),email_id)
+  AND NOT EXISTS (SELECT * FROM t_en_subscription s INNER JOIN t_en_recipients r ON r.to_id = s.to_id WHERE r.email_address = '~email_address~' AND s.email_id = t_en_email.email_id)
+ORDER BY email_name</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.8.Column.email_id.PicklistSql.InputParameters.default">
+    <ResourceValue>email_id~email_address</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.8.Column.email_id.PicklistSql.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.8.Column.email_id.PicklistSql.FieldParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.8.Column.to_id.Title">
+    <ResourceValue>Email Address</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.8.Column.to_id.Picklist.">
+    <ResourceValue>&lt;Select Recipient Address&gt;</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.8.Column.to_id.PicklistSql.StatementText.default">
+    <ResourceValue>SELECT email_address, to_id, wh_id
+FROM t_en_recipients
+WHERE email_address LIKE '~email_address~%'
+  AND NOT EXISTS (SELECT * FROM t_en_subscription s WHERE s.to_id = t_en_recipients.to_id AND email_id = NULLIF(0~email_id~,0))
+ORDER BY email_address</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.8.Column.to_id.PicklistSql.InputParameters.default">
+    <ResourceValue>email_address~email_id</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.8.Column.to_id.PicklistSql.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.8.Column.to_id.PicklistSql.FieldParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+</ResourceList>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MasterPageList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-highjump-com:webwise-master-page-list">
+  <Page Id="1" DataSourceType="2" PageType="Report" />
+  <Page Id="2" DataSourceType="2" PageType="Report" />
+  <Page Id="3" DataSourceType="2" PageType="Report" />
+  <Page Id="4" DataSourceType="4" PageType="Search" />
+  <Page Id="5" DataSourceType="4" PageType="Search" />
+  <Page Id="6" DataSourceType="4" PageType="Search" />
+  <Page Id="7" DataSourceType="3" PageType="Edit" />
+  <Page Id="8" DataSourceType="3" PageType="Edit" />
+  <Page Id="9" DataSourceType="3" PageType="Edit" />
+  <Page Id="10" DataSourceType="3" PageType="Edit" />
+  <Page Id="-40" DataSourceType="8" PageType="MultiRowEdit" />
+  <Page Id="-30" DataSourceType="4" PageType="Search" />
+  <Page Id="-20" DataSourceType="2" PageType="Report" />
+  <Page Id="-10" DataSourceType="3" PageType="Edit" />
+  <Page Id="11" DataSourceType="2" PageType="Report" />
+  <Page Id="12" DataSourceType="2" PageType="Report" />
+</MasterPageList>

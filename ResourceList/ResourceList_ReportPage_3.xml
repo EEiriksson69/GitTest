@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-highjump-com:webwise-resource-list">
+  <ResourceItem CultureName="en-US" ResourceId="Page.3.Title">
+    <ResourceValue>Email Subscriptions</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.3.SqlStatement.StatementText.sqlserver">
+    <ResourceValue>SELECT 
+    s.email_id,
+    s.to_id,
+    t.email_name,
+    r.email_address,
+    r.wh_id
+FROM
+    t_en_subscription s,
+    t_en_recipients r,
+    t_en_email t
+WHERE
+    t.email_id = s.email_id
+    AND r.to_id = s.to_id
+    AND r.email_address LIKE N'~email_address~'
+    AND t.email_name LIKE N'~email_name~'</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.3.SqlStatement.InputParameters.sqlserver">
+    <ResourceValue>email_address~email_name</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.3.SqlStatement.SessionParameters.sqlserver">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.3.SqlStatement.FieldParameters.sqlserver">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.3.SqlStatement.StatementText.oracle">
+    <ResourceValue>SELECT 
+    s.email_id,
+    s.to_id,
+    t.email_name,
+    r.email_address,
+    r.wh_id
+FROM
+    t_en_subscription s,
+    t_en_recipients r,
+    t_en_email t
+WHERE
+    t.email_id = s.email_id
+    AND r.to_id = s.to_id
+    AND r.email_address LIKE '~email_address~'
+    AND t.email_name LIKE '~email_name~'</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.3.SqlStatement.InputParameters.oracle">
+    <ResourceValue>email_address~email_name</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.3.SqlStatement.SessionParameters.oracle">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.3.SqlStatement.FieldParameters.oracle">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.3.UpdateSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.3.UpdateSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.3.UpdateSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.3.UpdateSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="en-US" ResourceId="Page.3.Nav.3.Title">
+    <ResourceValue>Add New Subscription</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.3.Nav.3.Param.v_vchEmail_ID.DefaultValue">
+    <ResourceValue>email_id</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.3.Nav.3.Param.v_vchTo_ID.DefaultValue">
+    <ResourceValue>to_id</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.3.Column.email_address.Title">
+    <ResourceValue>Recipient Address</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.3.Column.email_id.Title">
+    <ResourceValue>Email ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.3.Column.email_name.Title">
+    <ResourceValue>Email Template Name</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.3.Column.to_id.Title">
+    <ResourceValue>To ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.3.Column.wh_id.Title">
+    <ResourceValue>Warehouse ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.3.InputParamList.oracle">
+    <ResourceValue>email_address~email_name</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.3.InputParamList.sqlserver">
+    <ResourceValue>email_address~email_name</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.3.Title">
+    <ResourceValue>Email Subscriptions</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.3.SqlStatement.StatementText.sqlserver">
+    <ResourceValue>SELECT 
+    s.email_id,
+    s.to_id,
+    t.email_name,
+    r.email_address,
+    r.wh_id
+FROM
+    t_en_subscription s,
+    t_en_recipients r,
+    t_en_email t
+WHERE
+    t.email_id = s.email_id
+    AND r.to_id = s.to_id
+    AND r.email_address LIKE N'~email_address~'
+    AND t.email_name LIKE N'~email_name~'</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.3.SqlStatement.InputParameters.sqlserver">
+    <ResourceValue>email_address~email_name</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.3.SqlStatement.SessionParameters.sqlserver">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.3.SqlStatement.FieldParameters.sqlserver">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.3.SqlStatement.StatementText.oracle">
+    <ResourceValue>SELECT 
+    s.email_id,
+    s.to_id,
+    t.email_name,
+    r.email_address,
+    r.wh_id
+FROM
+    t_en_subscription s,
+    t_en_recipients r,
+    t_en_email t
+WHERE
+    t.email_id = s.email_id
+    AND r.to_id = s.to_id
+    AND r.email_address LIKE '~email_address~'
+    AND t.email_name LIKE '~email_name~'</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.3.SqlStatement.InputParameters.oracle">
+    <ResourceValue>email_address~email_name</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.3.SqlStatement.SessionParameters.oracle">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.3.SqlStatement.FieldParameters.oracle">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.3.UpdateSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.3.UpdateSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.3.UpdateSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.3.UpdateSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="" ResourceId="Page.3.Nav.3.Title">
+    <ResourceValue>Add New Subscription</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.3.Nav.3.Param.v_vchEmail_ID.DefaultValue">
+    <ResourceValue>email_id</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.3.Nav.3.Param.v_vchTo_ID.DefaultValue">
+    <ResourceValue>to_id</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.3.Column.email_address.Title">
+    <ResourceValue>Recipient Address</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.3.Column.email_id.Title">
+    <ResourceValue>Email ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.3.Column.email_name.Title">
+    <ResourceValue>Email Template Name</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.3.Column.to_id.Title">
+    <ResourceValue>To ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.3.Column.wh_id.Title">
+    <ResourceValue>Warehouse ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.3.InputParamList.oracle">
+    <ResourceValue>email_address~email_name</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.3.InputParamList.sqlserver">
+    <ResourceValue>email_address~email_name</ResourceValue>
+  </ResourceItem>
+</ResourceList>

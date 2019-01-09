@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditPage xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="7" xmlns="urn:schemas-highjump-com:webwise-edit-page">
+  <TitleResourceId>Page.7.Title</TitleResourceId>
+  <DataSourceType>3</DataSourceType>
+  <ScreenGroupId>0</ScreenGroupId>
+  <ConnectionId>1</ConnectionId>
+  <OpenNewThread>false</OpenNewThread>
+  <NextButton>
+    <Enabled>false</Enabled>
+    <EnabledSqlStatement />
+    <Sequence>0</Sequence>
+    <QueryLink>
+      <TargetPageId>0</TargetPageId>
+      <TargetPageType>Undefined</TargetPageType>
+      <InternalLink>false</InternalLink>
+      <IsLinkPage>false</IsLinkPage>
+      <CrystalLink>false</CrystalLink>
+      <LinkParameters />
+    </QueryLink>
+  </NextButton>
+  <BackButton>
+    <Enabled>false</Enabled>
+    <EnabledSqlStatement />
+    <Sequence>0</Sequence>
+    <QueryLink>
+      <TargetPageId>0</TargetPageId>
+      <TargetPageType>Undefined</TargetPageType>
+      <InternalLink>false</InternalLink>
+      <IsLinkPage>false</IsLinkPage>
+      <CrystalLink>false</CrystalLink>
+      <LinkParameters />
+    </QueryLink>
+  </BackButton>
+  <TouchScreen TouchScreenEnabled="false" />
+  <PageLinks />
+  <IsAutoSqlMode>true</IsAutoSqlMode>
+  <TableName>t_en_recipients</TableName>
+  <EditSqlStatements>
+    <SqlStatement DatabaseType="default">
+      <SqlStatementTextResourceId>Page.7.SqlStatement.StatementText.default</SqlStatementTextResourceId>
+      <SqlInputParameterListResourceId>Page.7.SqlStatement.InputParameters.default</SqlInputParameterListResourceId>
+      <SqlSessionParameterListResourceId>Page.7.SqlStatement.SessionParameters.default</SqlSessionParameterListResourceId>
+      <SqlFieldParameterListResourceId>Page.7.SqlStatement.FieldParameters.default</SqlFieldParameterListResourceId>
+    </SqlStatement>
+  </EditSqlStatements>
+  <SelectSqlStatements />
+  <InsertSqlStatements />
+  <UpdateSqlStatements />
+  <DeleteSqlStatements />
+  <ShowUpdateButton>true</ShowUpdateButton>
+  <ShowDeleteButton>true</ShowDeleteButton>
+  <DeleteConfirmation>true</DeleteConfirmation>
+  <ShowResetButton>true</ShowResetButton>
+  <ShowCancelButton>true</ShowCancelButton>
+  <OptimisticLocking>
+    <OptimisticAllowOverride>false</OptimisticAllowOverride>
+  </OptimisticLocking>
+  <PageInputParameterLists />
+  <PageSessionParameterLists />
+  <Columns>
+    <Column Name="email_address">
+      <AllowSort>false</AllowSort>
+      <ColumnTitleResourceId>Page.7.Column.email_address.Title</ColumnTitleResourceId>
+      <ControlType>Edit</ControlType>
+      <GlobalFieldName />
+      <Visible>true</Visible>
+      <ReadOnly>false</ReadOnly>
+      <ConditionalFormatting />
+      <ColumnWidth>60</ColumnWidth>
+      <ColumnHeight>0</ColumnHeight>
+      <ColumnSpan>1</ColumnSpan>
+      <Required>true</Required>
+      <ConditionalVisibility />
+      <FieldGroupId>0</FieldGroupId>
+      <FieldGroupSequence>3</FieldGroupSequence>
+      <FieldGroupRow>3</FieldGroupRow>
+      <DefaultValue>
+        <DefaultValueSaveParam>false</DefaultValueSaveParam>
+        <DefaultValueCustomParam>false</DefaultValueCustomParam>
+        <DefaultValueParamName />
+        <DefaultValueSqlStatements />
+      </DefaultValue>
+      <ColumnLink>
+        <LinkPath />
+        <TargetPageId>0</TargetPageId>
+        <TargetPageType>Undefined</TargetPageType>
+        <TargetApplicationName />
+        <InternalLink>false</InternalLink>
+        <IsLinkPage>false</IsLinkPage>
+        <CrystalLink>false</CrystalLink>
+        <LinkParameters />
+      </ColumnLink>
+      <ImageSettings>
+        <ShowTextPlaceholder>false</ShowTextPlaceholder>
+        <ShowInlineImage>false</ShowInlineImage>
+        <ImageHeight>0</ImageHeight>
+        <ImageWidth>0</ImageWidth>
+        <ImageTableName>t_en_recipients</ImageTableName>
+        <ImageMimetypeColumn />
+        <ImageFilenameColumn />
+        <ImageSqlStatements />
+        <ImageParameters />
+      </ImageSettings>
+      <Picklist>
+        <OrderFlag>ConstantsFirst</OrderFlag>
+        <PicklistSqlStatements />
+        <SqlValueColumn />
+        <SqlDisplayColumn />
+        <PicklistConstants />
+      </Picklist>
+      <Validation>
+        <Type>None</Type>
+        <Size>0</Size>
+        <LowerBound>0</LowerBound>
+        <UpperBound>0</UpperBound>
+        <DecimalPrecision>0</DecimalPrecision>
+        <MessageResourceId>Page.7.Column.email_address.ValidationMessage</MessageResourceId>
+        <RegExResourceId>Page.7.Column.email_address.ValidationRegEx</RegExResourceId>
+        <Sql>
+          <SqlStatement DatabaseType="default">
+            <SqlStatementTextResourceId>Page.7.Column.email_address.ValidationSqlStatement.StatementText.default</SqlStatementTextResourceId>
+            <SqlInputParameterListResourceId>Page.7.Column.email_address.ValidationSqlStatement.InputParameters.default</SqlInputParameterListResourceId>
+            <SqlSessionParameterListResourceId>Page.7.Column.email_address.ValidationSqlStatement.SessionParameters.default</SqlSessionParameterListResourceId>
+            <SqlFieldParameterListResourceId>Page.7.Column.email_address.ValidationSqlStatement.FieldParameters.default</SqlFieldParameterListResourceId>
+          </SqlStatement>
+        </Sql>
+      </Validation>
+      <TimeFormat>Short</TimeFormat>
+    </Column>
+    <Column Name="to_id">
+      <AllowSort>false</AllowSort>
+      <ColumnTitleResourceId>Page.7.Column.to_id.Title</ColumnTitleResourceId>
+      <ControlType>Label</ControlType>
+      <GlobalFieldName />
+      <Visible>true</Visible>
+      <ReadOnly>true</ReadOnly>
+      <ConditionalFormatting />
+      <ColumnWidth>0</ColumnWidth>
+      <ColumnHeight>0</ColumnHeight>
+      <ColumnSpan>1</ColumnSpan>
+      <Required>false</Required>
+      <ConditionalVisibility />
+      <FieldGroupId>0</FieldGroupId>
+      <FieldGroupSequence>1</FieldGroupSequence>
+      <FieldGroupRow>1</FieldGroupRow>
+      <DefaultValue>
+        <DefaultValueSaveParam>false</DefaultValueSaveParam>
+        <DefaultValueCustomParam>false</DefaultValueCustomParam>
+        <DefaultValueParamName>WW_7_to_id</DefaultValueParamName>
+        <DefaultValueSqlStatements>
+          <SqlStatement DatabaseType="default">
+            <SqlStatementTextResourceId>Page.7.Column.to_id.DefaultValueSql.StatementText.default</SqlStatementTextResourceId>
+            <SqlInputParameterListResourceId>Page.7.Column.to_id.DefaultValueSql.InputParameters.default</SqlInputParameterListResourceId>
+            <SqlSessionParameterListResourceId>Page.7.Column.to_id.DefaultValueSql.SessionParameters.default</SqlSessionParameterListResourceId>
+            <SqlFieldParameterListResourceId>Page.7.Column.to_id.DefaultValueSql.FieldParameters.default</SqlFieldParameterListResourceId>
+          </SqlStatement>
+        </DefaultValueSqlStatements>
+      </DefaultValue>
+      <ColumnLink>
+        <LinkPath />
+        <TargetPageId>0</TargetPageId>
+        <TargetPageType>Undefined</TargetPageType>
+        <TargetApplicationName />
+        <InternalLink>false</InternalLink>
+        <IsLinkPage>false</IsLinkPage>
+        <CrystalLink>false</CrystalLink>
+        <LinkParameters />
+      </ColumnLink>
+      <ImageSettings>
+        <ShowTextPlaceholder>false</ShowTextPlaceholder>
+        <ShowInlineImage>false</ShowInlineImage>
+        <ImageHeight>0</ImageHeight>
+        <ImageWidth>0</ImageWidth>
+        <ImageTableName>t_en_recipients</ImageTableName>
+        <ImageMimetypeColumn />
+        <ImageFilenameColumn />
+        <ImageSqlStatements />
+        <ImageParameters />
+      </ImageSettings>
+      <Picklist>
+        <OrderFlag>ConstantsFirst</OrderFlag>
+        <PicklistSqlStatements />
+        <SqlValueColumn />
+        <SqlDisplayColumn />
+        <PicklistConstants />
+      </Picklist>
+      <Validation>
+        <Type>None</Type>
+        <Size>0</Size>
+        <LowerBound>0</LowerBound>
+        <UpperBound>0</UpperBound>
+        <DecimalPrecision>0</DecimalPrecision>
+        <MessageResourceId>Page.7.Column.to_id.ValidationMessage</MessageResourceId>
+        <RegExResourceId>Page.7.Column.to_id.ValidationRegEx</RegExResourceId>
+        <Sql>
+          <SqlStatement DatabaseType="default">
+            <SqlStatementTextResourceId>Page.7.Column.to_id.ValidationSqlStatement.StatementText.default</SqlStatementTextResourceId>
+            <SqlInputParameterListResourceId>Page.7.Column.to_id.ValidationSqlStatement.InputParameters.default</SqlInputParameterListResourceId>
+            <SqlSessionParameterListResourceId>Page.7.Column.to_id.ValidationSqlStatement.SessionParameters.default</SqlSessionParameterListResourceId>
+            <SqlFieldParameterListResourceId>Page.7.Column.to_id.ValidationSqlStatement.FieldParameters.default</SqlFieldParameterListResourceId>
+          </SqlStatement>
+        </Sql>
+      </Validation>
+      <TimeFormat>Short</TimeFormat>
+    </Column>
+    <Column Name="wh_id">
+      <AllowSort>false</AllowSort>
+      <ColumnTitleResourceId>Page.7.Column.wh_id.Title</ColumnTitleResourceId>
+      <ControlType>DropDown</ControlType>
+      <GlobalFieldName />
+      <Visible>true</Visible>
+      <ReadOnly>false</ReadOnly>
+      <ColumnWidth>10</ColumnWidth>
+      <ColumnHeight>0</ColumnHeight>
+      <ColumnSpan>1</ColumnSpan>
+      <Required>true</Required>
+      <ConditionalVisibility />
+      <FieldGroupId>0</FieldGroupId>
+      <FieldGroupSequence>2</FieldGroupSequence>
+      <FieldGroupRow>2</FieldGroupRow>
+      <DefaultValue>
+        <DefaultValueSaveParam>false</DefaultValueSaveParam>
+        <DefaultValueCustomParam>false</DefaultValueCustomParam>
+        <DefaultValueParamName />
+        <DefaultValueSqlStatements />
+      </DefaultValue>
+      <ColumnLink>
+        <LinkPath />
+        <TargetPageId>0</TargetPageId>
+        <TargetPageType>Undefined</TargetPageType>
+        <TargetApplicationName />
+        <InternalLink>false</InternalLink>
+        <IsLinkPage>false</IsLinkPage>
+        <CrystalLink>false</CrystalLink>
+        <LinkParameters />
+      </ColumnLink>
+      <ImageSettings>
+        <ShowTextPlaceholder>false</ShowTextPlaceholder>
+        <ShowInlineImage>false</ShowInlineImage>
+        <ImageHeight>0</ImageHeight>
+        <ImageWidth>0</ImageWidth>
+        <ImageTableName>t_en_recipients</ImageTableName>
+        <ImageMimetypeColumn />
+        <ImageFilenameColumn />
+        <ImageSqlStatements />
+        <ImageParameters />
+      </ImageSettings>
+      <Picklist>
+        <OrderFlag>ConstantsFirst</OrderFlag>
+        <PicklistSqlStatements>
+          <SqlStatement DatabaseType="default">
+            <SqlStatementTextResourceId>Page.7.Column.wh_id.PicklistSql.StatementText.default</SqlStatementTextResourceId>
+            <SqlInputParameterListResourceId>Page.7.Column.wh_id.PicklistSql.InputParameters.default</SqlInputParameterListResourceId>
+            <SqlSessionParameterListResourceId>Page.7.Column.wh_id.PicklistSql.SessionParameters.default</SqlSessionParameterListResourceId>
+            <SqlFieldParameterListResourceId>Page.7.Column.wh_id.PicklistSql.FieldParameters.default</SqlFieldParameterListResourceId>
+          </SqlStatement>
+        </PicklistSqlStatements>
+        <SqlValueColumn>wh_id</SqlValueColumn>
+        <SqlDisplayColumn>wh_id</SqlDisplayColumn>
+        <PicklistConstants />
+      </Picklist>
+      <Validation>
+        <Type>None</Type>
+        <Size>0</Size>
+        <LowerBound>0</LowerBound>
+        <UpperBound>0</UpperBound>
+        <DecimalPrecision>0</DecimalPrecision>
+        <MessageResourceId>Page.7.Column.wh_id.ValidationMessage</MessageResourceId>
+        <RegExResourceId>Page.7.Column.wh_id.ValidationRegEx</RegExResourceId>
+        <Sql>
+          <SqlStatement DatabaseType="default">
+            <SqlStatementTextResourceId>Page.7.Column.wh_id.ValidationSqlStatement.StatementText.default</SqlStatementTextResourceId>
+            <SqlInputParameterListResourceId>Page.7.Column.wh_id.ValidationSqlStatement.InputParameters.default</SqlInputParameterListResourceId>
+            <SqlSessionParameterListResourceId>Page.7.Column.wh_id.ValidationSqlStatement.SessionParameters.default</SqlSessionParameterListResourceId>
+            <SqlFieldParameterListResourceId>Page.7.Column.wh_id.ValidationSqlStatement.FieldParameters.default</SqlFieldParameterListResourceId>
+          </SqlStatement>
+        </Sql>
+      </Validation>
+      <TimeFormat>Short</TimeFormat>
+    </Column>
+  </Columns>
+  <FieldGroups />
+</EditPage>

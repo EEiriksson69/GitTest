@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-highjump-com:webwise-resource-list">
+  <ResourceItem CultureName="en-US" ResourceId="Page.12.Title">
+    <ResourceValue>Email Subscriptions for ~email_name~</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.12.SqlStatement.StatementText.default">
+    <ResourceValue>SELECT 
+    s.email_id,
+    s.to_id,
+    t.email_name,
+    r.email_address,
+    r.wh_id
+FROM
+    t_en_subscription s,
+    t_en_recipients r,
+    t_en_email t
+WHERE
+    t.email_id = s.email_id
+    AND r.to_id = s.to_id
+    AND t.email_id = ~email_id~
+ORDER BY r.email_address</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.12.SqlStatement.InputParameters.default">
+    <ResourceValue>email_id</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.12.SqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.12.SqlStatement.FieldParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.12.UpdateSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.12.UpdateSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.12.UpdateSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.12.UpdateSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="en-US" ResourceId="Page.12.Nav.5.Title">
+    <ResourceValue>Add New Subscription</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.12.Nav.5.Param.v_vchEmail_ID.DefaultValue">
+    <ResourceValue>email_id</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.12.Nav.5.Param.v_vchTo_ID.DefaultValue">
+    <ResourceValue>to_id</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.12.Column.email_address.Title">
+    <ResourceValue>Recipient Address</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.12.Column.email_id.Title">
+    <ResourceValue>Email ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.12.Column.email_name.Title">
+    <ResourceValue>Email Template Name</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.12.Column.to_id.Title">
+    <ResourceValue>To ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.12.Column.wh_id.Title">
+    <ResourceValue>Warehouse ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.12.InputParamList.default">
+    <ResourceValue>email_id</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.12.Title">
+    <ResourceValue>Email Subscriptions for ~email_name~</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.12.SqlStatement.StatementText.default">
+    <ResourceValue>SELECT 
+    s.email_id,
+    s.to_id,
+    t.email_name,
+    r.email_address,
+    r.wh_id
+FROM
+    t_en_subscription s,
+    t_en_recipients r,
+    t_en_email t
+WHERE
+    t.email_id = s.email_id
+    AND r.to_id = s.to_id
+    AND t.email_id = ~email_id~
+ORDER BY r.email_address</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.12.SqlStatement.InputParameters.default">
+    <ResourceValue>email_id</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.12.SqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.12.SqlStatement.FieldParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.12.UpdateSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.12.UpdateSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.12.UpdateSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.12.UpdateSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="" ResourceId="Page.12.Nav.5.Title">
+    <ResourceValue>Add New Subscription</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.12.Nav.5.Param.v_vchEmail_ID.DefaultValue">
+    <ResourceValue>email_id</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.12.Nav.5.Param.v_vchTo_ID.DefaultValue">
+    <ResourceValue>to_id</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.12.Column.email_address.Title">
+    <ResourceValue>Recipient Address</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.12.Column.email_id.Title">
+    <ResourceValue>Email ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.12.Column.email_name.Title">
+    <ResourceValue>Email Template Name</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.12.Column.to_id.Title">
+    <ResourceValue>To ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.12.Column.wh_id.Title">
+    <ResourceValue>Warehouse ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.12.InputParamList.default">
+    <ResourceValue>email_id</ResourceValue>
+  </ResourceItem>
+</ResourceList>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DatabaseConnection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="1" xmlns="urn:schemas-highjump-com:webwise-database-connection">
+  <Name>AAD</Name>
+  <Description />
+  <ProviderType>HighJump</ProviderType>
+  <DatabaseTypeName />
+  <Parameters>
+    <Parameter Name="connectionId" Value="AADWebWise" />
+  </Parameters>
+</DatabaseConnection>

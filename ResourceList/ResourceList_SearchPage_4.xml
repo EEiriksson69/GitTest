@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-highjump-com:webwise-resource-list">
+  <ResourceItem CultureName="en-US" ResourceId="Page.4.Title">
+    <ResourceValue>Search Email Templates</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.4.Header">
+    <ResourceValue>To display a list of Email Templates:
+
+1) Select either an exact search or a like search. 
+2) Enter either...
+...	a) the Email Template name (or partial template name),
+...	b) the Subject or part of the Subject,
+...	c) part of the message text (LIKE searches only).
+3) Click the Query button.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.4.Footer">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.4.QueryButton">
+    <ResourceValue>Query</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.4.ResetButton">
+    <ResourceValue>Reset</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.4.CancelButton">
+    <ResourceValue>Cancel</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.4.Column.email_name.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.4.Column.email_name.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.4.Column.email_name.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.4.Column.email_name.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="en-US" ResourceId="Page.4.Column.subject.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.4.Column.subject.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.4.Column.subject.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.4.Column.subject.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="en-US" ResourceId="Page.4.Column.text.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.4.Column.text.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.4.Column.text.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.4.Column.text.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="en-US" ResourceId="Page.4.Column.email_name.Title">
+    <ResourceValue>Template Name</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.4.Column.subject.Title">
+    <ResourceValue>Subject</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.4.Column.text.Title">
+    <ResourceValue>Message Text</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.4.Title">
+    <ResourceValue>Search Email Templates</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.4.Header">
+    <ResourceValue>To display a list of Email Templates:
+
+1) Select either an exact search or a like search. 
+2) Enter either...
+...	a) the Email Template name (or partial template name),
+...	b) the Subject or part of the Subject,
+...	c) part of the message text (LIKE searches only).
+3) Click the Query button.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.4.Footer">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.4.QueryButton">
+    <ResourceValue>Query</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.4.ResetButton">
+    <ResourceValue>Reset</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.4.CancelButton">
+    <ResourceValue>Cancel</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.4.Column.email_name.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.4.Column.email_name.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.4.Column.email_name.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.4.Column.email_name.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="" ResourceId="Page.4.Column.subject.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.4.Column.subject.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.4.Column.subject.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.4.Column.subject.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="" ResourceId="Page.4.Column.text.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.4.Column.text.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.4.Column.text.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.4.Column.text.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="" ResourceId="Page.4.Column.email_name.Title">
+    <ResourceValue>Template Name</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.4.Column.subject.Title">
+    <ResourceValue>Subject</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.4.Column.text.Title">
+    <ResourceValue>Message Text</ResourceValue>
+  </ResourceItem>
+</ResourceList>

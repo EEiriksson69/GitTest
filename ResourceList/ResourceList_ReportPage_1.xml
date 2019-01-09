@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-highjump-com:webwise-resource-list">
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.Title">
+    <ResourceValue>Email Templates</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.SqlStatement.StatementText.sqlserver(header)">
+    <ResourceValue>SELECT 	'&lt;p&gt;To view or edit the Text Body for a template, click the corresponding row number.&lt;/p&gt;' +
+	'&lt;font size = "1"&gt;' +
+	'&lt;p&gt;Action Value Legend:&lt;ul&gt;' +
+	'&lt;li&gt;None 		= Always use Template&lt;/li&gt;' +
+	'&lt;li&gt;Overwrite 	= Replace If Provided&lt;/li&gt;' +
+	'&lt;li&gt;Concatenate	= Insert Text into Template&lt;/li&gt;&lt;/p&gt;&lt;/font&gt;'</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.SqlStatement.InputParameters.sqlserver(header)">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.SqlStatement.SessionParameters.sqlserver(header)">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.SqlStatement.FieldParameters.sqlserver(header)">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.SqlStatement.StatementText.sqlserver">
+    <ResourceValue>SELECT
+    e.email_id,
+    e.email_name,
+    e.subject,
+    e.subject_dynamic,
+    e.text,
+    e.text_dynamic,
+    e.date_updated,
+    e.last_update_user,
+	s.subscriptions
+FROM
+    t_en_email e
+	OUTER APPLY (SELECT COUNT(*) AS subscriptions FROM t_en_subscription WHERE email_id = e.email_id) s
+WHERE
+    e.email_name LIKE N'~Email_Name~'
+    AND e.subject LIKE N'~Subject~'
+    AND e.text LIKE N'~Text~'
+ORDER BY
+    e.email_id</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.SqlStatement.InputParameters.sqlserver">
+    <ResourceValue>Email_Name~Subject~Text</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.SqlStatement.SessionParameters.sqlserver">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.SqlStatement.FieldParameters.sqlserver">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.SqlStatement.StatementText.oracle(header)">
+    <ResourceValue>SELECT 	'&lt;p&gt;To view or edit the Text Body for a template, click the corresponding row number.&lt;/p&gt;' ||
+	'&lt;font size = "1"&gt;' ||
+	'&lt;p&gt;Action Value Legend:&lt;ul&gt;' ||
+	'&lt;li&gt;None 		= Always use Template&lt;/li&gt;' ||
+	'&lt;li&gt;Overwrite 	= Replace If Provided&lt;/li&gt;' ||
+	'&lt;li&gt;Concatenate	= Insert Text into Template&lt;/li&gt;&lt;/p&gt;&lt;/font&gt;' FROM DUAL</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.SqlStatement.InputParameters.oracle(header)">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.SqlStatement.SessionParameters.oracle(header)">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.SqlStatement.FieldParameters.oracle(header)">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.SqlStatement.StatementText.oracle">
+    <ResourceValue>SELECT
+    email_id,
+    email_name,
+    subject,
+    subject_dynamic,
+    text,
+    text_dynamic,
+    date_updated,
+    last_update_user
+FROM
+    t_en_email
+WHERE email_name LIKE '~Email_Name~'
+    AND subject LIKE '~Subject~'
+    AND text LIKE '~Text~'
+ORDER BY
+    email_id</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.SqlStatement.InputParameters.oracle">
+    <ResourceValue>Email_Name~Subject~Text</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.SqlStatement.SessionParameters.oracle">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.SqlStatement.FieldParameters.oracle">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.UpdateSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.UpdateSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.UpdateSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.UpdateSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.Nav.1.Title">
+    <ResourceValue>Add New Template</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.Nav.1.Param.v_vchEmail_ID.DefaultValue">
+    <ResourceValue>email_id</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.Column.date_updated.Title">
+    <ResourceValue>Last Date Updated</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.Column.email_id.Title">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.Column.email_name.Title">
+    <ResourceValue>Template Name</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.Column.last_update_user.Title">
+    <ResourceValue>Created By</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.Column.subject.Title">
+    <ResourceValue>Default Subject</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.Column.subject_dynamic.Title">
+    <ResourceValue>Subject Action</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.Column.subscriptions.Title">
+    <ResourceValue>Subscribers</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.Column.text.Title">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.Column.text_dynamic.Title">
+    <ResourceValue>Text Action</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.InputParamList.oracle">
+    <ResourceValue>Email_Name~Subject~Text</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.1.InputParamList.sqlserver">
+    <ResourceValue>Email_Name~Subject~Text</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.Title">
+    <ResourceValue>Email Templates</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.SqlStatement.StatementText.sqlserver(header)">
+    <ResourceValue>SELECT 	'&lt;p&gt;To view or edit the Text Body for a template, click the corresponding row number.&lt;/p&gt;' +
+	'&lt;font size = "1"&gt;' +
+	'&lt;p&gt;Action Value Legend:&lt;ul&gt;' +
+	'&lt;li&gt;None 		= Always use Template&lt;/li&gt;' +
+	'&lt;li&gt;Overwrite 	= Replace If Provided&lt;/li&gt;' +
+	'&lt;li&gt;Concatenate	= Insert Text into Template&lt;/li&gt;&lt;/p&gt;&lt;/font&gt;'</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.SqlStatement.InputParameters.sqlserver(header)">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.SqlStatement.SessionParameters.sqlserver(header)">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.SqlStatement.FieldParameters.sqlserver(header)">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.SqlStatement.StatementText.sqlserver">
+    <ResourceValue>SELECT
+    e.email_id,
+    e.email_name,
+    e.subject,
+    e.subject_dynamic,
+    e.text,
+    e.text_dynamic,
+    e.date_updated,
+    e.last_update_user,
+	s.subscriptions
+FROM
+    t_en_email e
+	OUTER APPLY (SELECT COUNT(*) AS subscriptions FROM t_en_subscription WHERE email_id = e.email_id) s
+WHERE
+    e.email_name LIKE N'~Email_Name~'
+    AND e.subject LIKE N'~Subject~'
+    AND e.text LIKE N'~Text~'
+ORDER BY
+    e.email_id</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.SqlStatement.InputParameters.sqlserver">
+    <ResourceValue>Email_Name~Subject~Text</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.SqlStatement.SessionParameters.sqlserver">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.SqlStatement.FieldParameters.sqlserver">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.SqlStatement.StatementText.oracle(header)">
+    <ResourceValue>SELECT 	'&lt;p&gt;To view or edit the Text Body for a template, click the corresponding row number.&lt;/p&gt;' ||
+	'&lt;font size = "1"&gt;' ||
+	'&lt;p&gt;Action Value Legend:&lt;ul&gt;' ||
+	'&lt;li&gt;None 		= Always use Template&lt;/li&gt;' ||
+	'&lt;li&gt;Overwrite 	= Replace If Provided&lt;/li&gt;' ||
+	'&lt;li&gt;Concatenate	= Insert Text into Template&lt;/li&gt;&lt;/p&gt;&lt;/font&gt;' FROM DUAL</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.SqlStatement.InputParameters.oracle(header)">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.SqlStatement.SessionParameters.oracle(header)">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.SqlStatement.FieldParameters.oracle(header)">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.SqlStatement.StatementText.oracle">
+    <ResourceValue>SELECT
+    email_id,
+    email_name,
+    subject,
+    subject_dynamic,
+    text,
+    text_dynamic,
+    date_updated,
+    last_update_user
+FROM
+    t_en_email
+WHERE email_name LIKE '~Email_Name~'
+    AND subject LIKE '~Subject~'
+    AND text LIKE '~Text~'
+ORDER BY
+    email_id</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.SqlStatement.InputParameters.oracle">
+    <ResourceValue>Email_Name~Subject~Text</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.SqlStatement.SessionParameters.oracle">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.SqlStatement.FieldParameters.oracle">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.UpdateSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.UpdateSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.UpdateSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.UpdateSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="" ResourceId="Page.1.Nav.1.Title">
+    <ResourceValue>Add New Template</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.Nav.1.Param.v_vchEmail_ID.DefaultValue">
+    <ResourceValue>email_id</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.Column.date_updated.Title">
+    <ResourceValue>Last Date Updated</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.Column.email_id.Title">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.Column.email_name.Title">
+    <ResourceValue>Template Name</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.Column.last_update_user.Title">
+    <ResourceValue>Created By</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.Column.subject.Title">
+    <ResourceValue>Default Subject</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.Column.subject_dynamic.Title">
+    <ResourceValue>Subject Action</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.Column.subscriptions.Title">
+    <ResourceValue>Subscribers</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.Column.text.Title">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.Column.text_dynamic.Title">
+    <ResourceValue>Text Action</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.InputParamList.oracle">
+    <ResourceValue>Email_Name~Subject~Text</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.1.InputParamList.sqlserver">
+    <ResourceValue>Email_Name~Subject~Text</ResourceValue>
+  </ResourceItem>
+</ResourceList>

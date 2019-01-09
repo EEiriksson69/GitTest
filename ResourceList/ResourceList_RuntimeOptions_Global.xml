@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-highjump-com:webwise-resource-list">
+  <ResourceItem CultureName="" ResourceId="GlobalOption.APPLICATION_LOG_LEVEL">
+    <ResourceValue>3</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.APPLICATION_UNIQUE_ID">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.ATTACH_USERNAME_FOR_AUDIT_LOGGING">
+    <ResourceValue>0</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.AUTH_ON_STARTUP">
+    <ResourceValue>0</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.AUTH_ON_TIMEOUT">
+    <ResourceValue>0</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.AUTOCOMPLETE">
+    <ResourceValue>1</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.BYPASS_NUMERIC_VALIDATION_ON_EMPTY_FIELDS">
+    <ResourceValue>0</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.CLIENT_SIDE_TIMEOUT">
+    <ResourceValue>0</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.CLIENT_SIDE_TIMEOUT_DEFAULT">
+    <ResourceValue>60</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.CLIENT_SIDE_TIMEOUT_URL">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.COMMAND_TIMEOUT">
+    <ResourceValue>30</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.CONNECTION_TIMEOUT">
+    <ResourceValue>15</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.CONSOLIDATED_WEB_MODE">
+    <ResourceValue>2</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.CONVERT_EMPTY_STRINGS_TO_NULL">
+    <ResourceValue>1</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.CRYSTAL_REPORTS_PATH">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.CURRENT_LOCALE">
+    <ResourceValue>en-US</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.DEFAULT_LOCALE">
+    <ResourceValue>en-US</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.DISPLAY_DEFAULT_VALUE_SQL_ERRORS">
+    <ResourceValue>0</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.DISPLAY_OPTION_MENU">
+    <ResourceValue>1</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.DISPLAY_PAGE_ID">
+    <ResourceValue>1</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.DISPLAY_PICK_LIST_SQL_ERRORS">
+    <ResourceValue>0</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.ENABLE_PUBLISH_CONFIRMATION">
+    <ResourceValue>1</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.ENABLE_SINGLE_SIGN_ON">
+    <ResourceValue>1</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.HELP_LINK_URL">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.MENU_WIDTH_MAX_PERCENT">
+    <ResourceValue>25</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.PUBLISH_WEB_SERVICE_URL">
+    <ResourceValue>http://wmsdev-dev/SupplyChainAdvantage/GitTest/PageEditorGateway.asmx</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.REALTIME_PUBLISHING">
+    <ResourceValue>1</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.REPLACE_SINGLE_QUOTES">
+    <ResourceValue>1</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.REPORT_WEB_SERVICE_URL">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.SECURITY_POLICY">
+    <ResourceValue>1</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.USER_CONNECTION_OVERRIDE">
+    <ResourceValue>0</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.WORKFLOW_TIMEOUT">
+    <ResourceValue>100</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.WORKFLOW_WEB_SERVICE_URL">
+    <ResourceValue>http://wmsdev-dev/AdvWorkflowRequest/AdvWorkflowRequest.asmx</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalOption.LOGO_IMAGE_WIDTH">
+    <ResourceValue>250</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalOption.LOGO_IMAGE_HEIGHT">
+    <ResourceValue>172</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalOption.LOGO_IMAGE_FILE">
+    <ResourceValue>WebWiseLogo.jpg</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalOption.DEFAULT_START_PAGE">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalOption.APPLICATION_TITLE">
+    <ResourceValue>GitTest</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.LOGO_IMAGE_WIDTH">
+    <ResourceValue>250</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.LOGO_IMAGE_HEIGHT">
+    <ResourceValue>172</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.LOGO_IMAGE_FILE">
+    <ResourceValue>WebWiseLogo.jpg</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.DEFAULT_START_PAGE">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalOption.APPLICATION_TITLE">
+    <ResourceValue>GitTest</ResourceValue>
+  </ResourceItem>
+</ResourceList>

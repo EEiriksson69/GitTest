@@ -1,0 +1,1529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-highjump-com:webwise-resource-list">
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Report.NextButton">
+    <ResourceValue>Next Page</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.TitleBarBackColor">
+    <ResourceValue>#0000FF</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.TitleBar">
+    <ResourceValue>1</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Workflow.OkButton">
+    <ResourceValue>OK</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.CopyButton">
+    <ResourceValue>Copy to Clipboard</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Search.ResetButton">
+    <ResourceValue>Reset</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Search.QueryButton">
+    <ResourceValue>Query</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Search.Like">
+    <ResourceValue>Like</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Search.Exactly">
+    <ResourceValue>Exactly</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.ShowRowsText">
+    <ResourceValue>Show {0}</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.InlineEdit.SaveTooltip">
+    <ResourceValue>Save</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.InlineEdit.EditTooltip">
+    <ResourceValue>Edit</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Report.RefreshButton">
+    <ResourceValue>Refresh</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Report.PreviousButton">
+    <ResourceValue>Previous Page</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Logon.PasswordLabel">
+    <ResourceValue>Password:</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ParameterInput.Prompt">
+    <ResourceValue>Please supply the following values:</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.AlternateRowColor">
+    <ResourceValue>#FFFFFF</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Logon.TimeoutTitle">
+    <ResourceValue>Inactivity Timeout</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Logon.UsernameLabel">
+    <ResourceValue>Username:</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Logon.UsernamePasswordPrompt">
+    <ResourceValue>Please enter your username and password.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.NextButton.Default">
+    <ResourceValue>Next</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Report.PageIndicator">
+    <ResourceValue>Page: {0} of {1}</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ParameterInput.InfoRequired">
+    <ResourceValue>The "{0}" screen requires additional information before it can be displayed.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Report.NoRecords">
+    <ResourceValue>There are no records to display.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ParameterInput.ResetButton">
+    <ResourceValue>Reset</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ParameterInput.SendButton">
+    <ResourceValue>Send</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ParameterInput.Title">
+    <ResourceValue>Parameter Input</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Report.FirstButton">
+    <ResourceValue>First Page</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Report.LastButton">
+    <ResourceValue>Last Page</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.TitleBarFontFamily">
+    <ResourceValue>Arial, Helvetica, sans-serif</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.PagePreferences.SaveButton">
+    <ResourceValue>Save</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.PromptConfirmMessage">
+    <ResourceValue>Please Confirm</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.PagePreferences.RevertButton">
+    <ResourceValue>Revert</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.GetMenuListModelHeading">
+    <ResourceValue>An error occurred requesting the menu list.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.GetMenuModelHeading">
+    <ResourceValue>An error occurred requesting a menu level.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.SaveReportPagePreferencesHeading">
+    <ResourceValue>An error occurred saving preferences.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Workflow.ProcessingMessage">
+    <ResourceValue>Processing...</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.RowOperation.FailureMessage">
+    <ResourceValue>No changes were applied.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.LoggedInAs">
+    <ResourceValue>Logged in as {0}</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.PagePreferences.RevertMessage">
+    <ResourceValue>Page Preferences reverted.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.PromptConfirmButton">
+    <ResourceValue>Confirm</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.PromptCancelButton">
+    <ResourceValue>Cancel</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.FavoriteDialog.FavoriteGroupHeading">
+    <ResourceValue>Group</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.FavoriteDialog.NewGroupButton">
+    <ResourceValue>New Group</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.FavoriteDialog.DuplicateError">
+    <ResourceValue>The favorite name is already included in this group.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.FavoriteDialog.DuplicateGroupError">
+    <ResourceValue>A group with this name already exists.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.MenuButton">
+    <ResourceValue>Menu</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.ExecuteWorkflowHeading">
+    <ResourceValue>An error occurred executing a workflow.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Logon.Message.Verify">
+    <ResourceValue>Unable to verify your username and password.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.TitleBarFontSize">
+    <ResourceValue>24pt</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.TitleBarForeColor">
+    <ResourceValue>#FFFFFF</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.DeleteEditPageRecordHeading">
+    <ResourceValue>An error occurred deleting the record.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.ExecuteRowOperationHeading">
+    <ResourceValue>An error occurred executing a row operation.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.GetLinkPageModelHeading">
+    <ResourceValue>An error occurred transforming a link.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.AllRightsReserved">
+    <ResourceValue>All Rights Reserved.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.HiddenColumnsHeader">
+    <ResourceValue>Hidden Columns</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.ExportReportPageDataHeading">
+    <ResourceValue>An error occurred exporting the data.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.PagePreferences.SaveMessage">
+    <ResourceValue>Page Preferences saved.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.GetApplicationSettingsHeading">
+    <ResourceValue>An error occurred requesting application settings.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.GetCrystalReportLinkModelHeading">
+    <ResourceValue>An error occurred requesting the report URL.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.GetEditPageModelHeading">
+    <ResourceValue>An error occurred requesting an edit page.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.GetExtensionPageModelHeading">
+    <ResourceValue>An error occurred requesting an extension page.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.HelpLink">
+    <ResourceValue>SendEmail Help</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Clipboard.FailureMessage">
+    <ResourceValue>Clipboard access not allowed.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.Clipboard.CopyRow">
+    <ResourceValue>Copy Row</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.ConfirmButton">
+    <ResourceValue>OK</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.CancelEditPageHeading">
+    <ResourceValue>An error occurred leaving the edit page.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.Message.IncompleteParams">
+    <ResourceValue>This web page [{0}, ID={1}] was not passed a complete list of parameters in update mode.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.Message.ConfirmDelete">
+    <ResourceValue>Are you sure you want to delete this record?</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Logon.SavePasswordCheckbox">
+    <ResourceValue>Save Password</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.InsertButton">
+    <ResourceValue>Insert</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.DeleteImageCheckbox">
+    <ResourceValue>Delete image</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.DeleteButton">
+    <ResourceValue>Delete</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.CancelButton">
+    <ResourceValue>Cancel</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.FavoriteDialog.CopyPageUrlToolTip">
+    <ResourceValue>Copy Page URL</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Clipboard.SuccessMessage">
+    <ResourceValue>Information copied to the Clipboard.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.UnfreezeAllButton">
+    <ResourceValue>Unfreeze All</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Logon.PasswordPrompt">
+    <ResourceValue>Please enter your password.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Menu.UnpinButton">
+    <ResourceValue>Unpin Menu</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialogTitle">
+    <ResourceValue>Error</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.SortAscendingButton">
+    <ResourceValue>Sort</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.SortDescendingButton">
+    <ResourceValue>Sort</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.UnsortButton">
+    <ResourceValue>Unsort</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.ChartLegend">
+    <ResourceValue>0</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.BackButton.Default">
+    <ResourceValue>Back</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Menu.PinButton">
+    <ResourceValue>Pin Menu</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Rulers">
+    <ResourceValue>1</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Menu.RefreshButton">
+    <ResourceValue>Refresh Menu</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Menu.CloseButton">
+    <ResourceValue>Close Menu</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Thread.Navigation.PreviousButton">
+    <ResourceValue>Previous</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Thread.Navigation.NextButton">
+    <ResourceValue>Next</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.UnfreezeButton">
+    <ResourceValue>Unfreeze</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.Message.NoData">
+    <ResourceValue>This web page [{0}, ID={1}] could not find data to update. It is possible that this data has been deleted by another user.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.ExitLink">
+    <ResourceValue>1</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Image.ImagePlaceholder">
+    <ResourceValue>Image</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.Message.Modified">
+    <ResourceValue>Another user or process modified the record while you were editing it.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.Validation.Required">
+    <ResourceValue>The field {0} is required</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ExitLink">
+    <ResourceValue>Logoff</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.ExportButton">
+    <ResourceValue>Export</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Image.EmptyPlaceholder">
+    <ResourceValue>Empty</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.Validation.Precision">
+    <ResourceValue>The field {0} failed validation because it has too many digits [{1}] to the right of the decimal. The maximum allowed is {2}.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.PagePreferences.Header">
+    <ResourceValue>Page Preferences</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.Validation.Numeric">
+    <ResourceValue>The field {0} failed validation because it is not numeric.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Logon.ClearButton">
+    <ResourceValue>Clear</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Logon.LogonButton">
+    <ResourceValue>Logon</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Logon.LogonTitle">
+    <ResourceValue>Logon</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Logon.Message.EmptyUsername">
+    <ResourceValue>Please enter a username.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Logon.Message.MenuLevel">
+    <ResourceValue>User '{0}' is not assigned to a web menu level.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Logon.Message.UserGroup">
+    <ResourceValue>Could not find any user group assignments for '{0}'. Please contact your system administrator.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Menu.SearchButton">
+    <ResourceValue>Search</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.UnsupportedWebBrowserMessage">
+    <ResourceValue>The application is not supported on this web browser. For a list of supported web browsers, see {0}.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.UserMenu.Favorites.Text">
+    <ResourceValue>Favorites</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.Message.Override">
+    <ResourceValue>Override?</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.Clipboard.CopyCell">
+    <ResourceValue>Copy Cell</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.Message.SqlErrorCheckCount">
+    <ResourceValue>A SQL error occurred while validating that this edit page only accesses one record in the {0} table.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.Message.UpdateFailed">
+    <ResourceValue>Could not update record:</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.Validation.Range">
+    <ResourceValue>The field {0} failed validation because it is not within its defined numeric range of {1} through {2}.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.Message.WhereInvalid">
+    <ResourceValue>WHERE clause is not valid.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.Message.MultipleRows">
+    <ResourceValue>This web page [{0}, ID={1}] is attempting to edit more than one row of data.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.Message.WhereReturn">
+    <ResourceValue>WHERE clause did not return one row for an update or delete.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.OverrideButton">
+    <ResourceValue>Override</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.ResetButton">
+    <ResourceValue>Reset</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.UpdateButton">
+    <ResourceValue>Update</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.Validation.Date">
+    <ResourceValue>The field {0} failed validation because it is not a valid date.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.Validation.MaxLength">
+    <ResourceValue>The field {0} failed validation. User Input Length = {1}. Valid Input Length must be less than or equal to {2}.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.Message.UpdateFieldFailed">
+    <ResourceValue>Failed to update field {0}.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType.Doughnut">
+    <ResourceValue>Doughnut</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.MarkerType.Diamond">
+    <ResourceValue>Diamond</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.MarkerType.Cross">
+    <ResourceValue>Cross</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.MarkerType.Circle">
+    <ResourceValue>Circle</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.MarkerType">
+    <ResourceValue>Marker Type</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.SeriesDisplayOptions">
+    <ResourceValue>Series Display Options</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.Theme5">
+    <ResourceValue>Theme 5</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.Theme4">
+    <ResourceValue>Theme 4</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.Theme3">
+    <ResourceValue>Theme 3</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.Theme2">
+    <ResourceValue>Theme 2</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.Theme1">
+    <ResourceValue>Theme 1</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.Themes">
+    <ResourceValue>Themes</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.VerticalGridlines">
+    <ResourceValue>Vertical Gridlines</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.HorizontalGridlines">
+    <ResourceValue>Horizontal Gridlines</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.FavoritesMenu.Title">
+    <ResourceValue>Favorites</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType.Mark">
+    <ResourceValue>Mark</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.XaxisLabels">
+    <ResourceValue>X-axis Labels</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.SeriesPointLabels">
+    <ResourceValue>Series Point Labels</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.Legend">
+    <ResourceValue>Legend</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType">
+    <ResourceValue>Chart Type</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType.Line">
+    <ResourceValue>Line</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType.StackedBar">
+    <ResourceValue>Stacked Bar</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType.Spline">
+    <ResourceValue>Spline</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType.HorizontalBar">
+    <ResourceValue>Horizontal Bar</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType.Pie">
+    <ResourceValue>Pie</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType.Area">
+    <ResourceValue>Area</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType.Scatter">
+    <ResourceValue>Scatter</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType.HiLowOpenClose">
+    <ResourceValue>Hi-Low Open-Close</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType.Radar">
+    <ResourceValue>Radar</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.MarkerType.Triangle">
+    <ResourceValue>Triangle</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType.Bar">
+    <ResourceValue>Bar</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Prompt.LoseUnsavedChangesConfirmation">
+    <ResourceValue>Warning! You will lose the changes on this page if you continue.
+Are you sure you want to leave this page?</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.MarkerType.Line">
+    <ResourceValue>Line</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.PagePreferences.Admin.PersonalButton">
+    <ResourceValue>Personal</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.MREApplyChangesError">
+    <ResourceValue>An error occurred applying changes.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.MREAddRowError">
+    <ResourceValue>An error occurred adding a new row.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.MREDeleteRowError">
+    <ResourceValue>An error occurred deleting the row.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.PagePreferences.Admin.RevertPromptMessage">
+    <ResourceValue>Revert default page preferences for all users or personal page preferences?</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Prompt.ContinueButton">
+    <ResourceValue>Continue</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.PagePreferences.Admin.RevertPromptTitle">
+    <ResourceValue>Revert Preferences</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Prompt.MightLoseUnsavedChanges">
+    <ResourceValue>Warning! You might lose the changes on this page if you continue.
+Are you sure you want to leave this page?</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.UnsavedChangesDialogTitle">
+    <ResourceValue>Unsaved Changes</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.AuthenticatingMessage">
+    <ResourceValue>Authenticating...</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.PromptAuthenticatedTitle">
+    <ResourceValue>Authenticated</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.PromptAuthenticatedMessage">
+    <ResourceValue>The authentication session was renewed.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.PromptAuthenticatedDetails">
+    <ResourceValue>The last action you performed did not complete. You must perform the action again.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.MREUpdateRowError">
+    <ResourceValue>An error occurred updating the row.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.MultiRowEditPage.DeleteRowTooltip">
+    <ResourceValue>Delete Row</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartDisplayOptions">
+    <ResourceValue>Chart Display Options</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.GetMREPageModelHeading">
+    <ResourceValue>An error occurred requesting a multi row edit page.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.MultiRowEditPage.ApplyButton">
+    <ResourceValue>Apply</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.MultiRowEditPage.DoneButton">
+    <ResourceValue>Done</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.MultiRowEditPage.ResetButton">
+    <ResourceValue>Reset</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.PagePreferences.Admin.DefaultButton">
+    <ResourceValue>Default</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.MultiRowEditPage.AddNewRowTooltip">
+    <ResourceValue>Add New Row</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.MarkerType.Square">
+    <ResourceValue>Square</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.MultiRowEditPage.UndoDeleteRowTooltip">
+    <ResourceValue>Undo Delete Row</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.MultiRowEditPage.AllChangesApplied">
+    <ResourceValue>All changes applied.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.MultiRowEditPage.PageValidationErrors">
+    <ResourceValue>There are validation errors on the page.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.MultiRowEditPage.RowValidationErrors">
+    <ResourceValue>There are validation errors on the row.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.PagePreferences.Admin.SavePromptTitle">
+    <ResourceValue>Save Preferences</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.PagePreferences.Admin.SavePromptMessage">
+    <ResourceValue>Save default page preferences for all users or personal page preferences?</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.MultiRowEditPage.CancelButton">
+    <ResourceValue>Cancel</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.HideButton">
+    <ResourceValue>Hide</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.FavoriteDialog.CreateHeading">
+    <ResourceValue>Create Favorite</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.ValidateSearchPageHeading">
+    <ResourceValue>An error occurred validating the data.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Edit.UploadImageButton">
+    <ResourceValue>Select File</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Image.DisplayFailedMessage">
+    <ResourceValue>Unable to display the image.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.WebWiseHelp">
+    <ResourceValue>WebWise Help</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.UpdateReportPageRecordHeading">
+    <ResourceValue>An error occurred updating the record.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.FreezeButton">
+    <ResourceValue>Freeze</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.UpdateEditPageRecordHeading">
+    <ResourceValue>An error occurred updating the record.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.FavoriteDialog.CancelButton">
+    <ResourceValue>Cancel</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.FavoriteDialog.SaveButton">
+    <ResourceValue>Save</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.FavoriteDialog.DeleteFavoriteHeading">
+    <ResourceValue>Delete Favorite</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.FavoriteDialog.DeleteGroupHeading">
+    <ResourceValue>Delete Group</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.FavoriteDialog.DeleteGroupConfirmation">
+    <ResourceValue>Warning! Deleting a group will delete all of the favorites within the group.
+
+Are you sure you want to delete the group {0}?</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.YaxisLabels">
+    <ResourceValue>Y-axis Labels</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.HelpButton">
+    <ResourceValue>Help</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.GetMenuPageModelHeading">
+    <ResourceValue>An error occurred requesting a menu page.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.UnhideButton">
+    <ResourceValue>Unhide</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.UserMenu.Favorites.ImportText">
+    <ResourceValue>Import</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.UserMenu.Favorites.ExportText">
+    <ResourceValue>Export</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Favorites.ImportSucceededMessage">
+    <ResourceValue>Favorites imported.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Thread.ClosePromptTitle">
+    <ResourceValue>Close</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.RevertReportPagePreferencesHeading">
+    <ResourceValue>An error occurred reverting preferences.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.PrintButton">
+    <ResourceValue>Print</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.FavoriteDialog.EditHeading">
+    <ResourceValue>Edit Favorite</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.GetReportPageModelHeading">
+    <ResourceValue>An error occurred requesting a report page.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.GetSearchPageModelHeading">
+    <ResourceValue>An error occurred requesting a search page.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.HideDetailsButton">
+    <ResourceValue>Hide Details</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.InsertEditPageRecordHeading">
+    <ResourceValue>An error occurred inserting the record.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.LogoffHeading">
+    <ResourceValue>An error occurred logging off.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ErrorDialog.ShowDetailsButton">
+    <ResourceValue>Show Details</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Thread.ClosePromptMessage">
+    <ResourceValue>Are you sure you want to close thread {0}?</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Filters.ApplyFiltersButton">
+    <ResourceValue>Apply Filters</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.FavoriteDialog.DeleteFavoriteConfirmation">
+    <ResourceValue>Are you sure you want to delete the favorite {0}?</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.AvailableStorage.IncreaseConfirmationMessage">
+    <ResourceValue>Confirm available storage increase and retry.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.AvailableStorage.IncreaseSucceededMessage">
+    <ResourceValue>Available storage increased. Try operation again.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.AvailableStorage.IncreaseFailedMessage">
+    <ResourceValue>Unable to increase available storage.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.AvailableStorage.IncreaseErrorMessage">
+    <ResourceValue>An error occurred increasing available storage.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Filters.InvalidDateTimeFilterError">
+    <ResourceValue>Unable to convert filter value [{0}] to a DateTime for column [{1}]. The filter was not applied.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Filters.InvalidFilterError">
+    <ResourceValue>Unable to format filter [{0}] for column [{1}]. The filter was not applied.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.PromptOkButton">
+    <ResourceValue>OK</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Filters.FiltersOffButton">
+    <ResourceValue>Filters Off</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Filters.FiltersOnButton">
+    <ResourceValue>Filters On</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Filters.FailedToApplyFilterError">
+    <ResourceValue>Failed to apply filter to page. Filter: {0}</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartData">
+    <ResourceValue>Chart Data</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.Export">
+    <ResourceValue>Export</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.FindButton">
+    <ResourceValue>Find</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Favorites.ImportFailedMessage">
+    <ResourceValue>Unable to import favorites</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Favorites.ExportSucceededMessage">
+    <ResourceValue>Favorites exported.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.FavoriteDialog.EditFavoriteGroupHeading">
+    <ResourceValue>Edit Group</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.FavoriteDialog.FavoriteNameHeading">
+    <ResourceValue>Name</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.FavoritesMenu.DeleteFavoriteButton">
+    <ResourceValue>Delete Favorite</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.FavoritesMenu.DeleteFavoriteGroupButton">
+    <ResourceValue>Delete Group</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.FavoritesMenu.EditFavoriteButton">
+    <ResourceValue>Edit Favorite</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Filters.InvalidNumberFilterError">
+    <ResourceValue>Unable to convert filter value [{0}] to a Number for column [{1}]. The filter was not applied.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.ReportPage.FindText">
+    <ResourceValue>Find:</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.Enable3d">
+    <ResourceValue>Enable 3-D</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Favorites.ExportDialog.Title">
+    <ResourceValue>Export Favorites</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Favorites.ExportDialog.ExportButton">
+    <ResourceValue>Export</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Favorites.ExportDialog.CancelButton">
+    <ResourceValue>Cancel</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.AvailableStorage.InsufficientSpaceMessage">
+    <ResourceValue>There is not enough available storage.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Favorites.ImportErrorMessage">
+    <ResourceValue>An error occurred importing favorites.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.Favorites.ExportErrorMessage">
+    <ResourceValue>An error occurred exporting favorites.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="GlobalPageSetting.Text.FavoritesMenu.EditFavoriteGroupButton">
+    <ResourceValue>Edit Group</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Report.NextButton">
+    <ResourceValue>Next Page</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.TitleBarBackColor">
+    <ResourceValue>#0000FF</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.TitleBar">
+    <ResourceValue>1</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Workflow.OkButton">
+    <ResourceValue>OK</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.CopyButton">
+    <ResourceValue>Copy to Clipboard</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Search.ResetButton">
+    <ResourceValue>Reset</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Search.QueryButton">
+    <ResourceValue>Query</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Search.Like">
+    <ResourceValue>Like</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Search.Exactly">
+    <ResourceValue>Exactly</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.ShowRowsText">
+    <ResourceValue>Show {0}</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.InlineEdit.SaveTooltip">
+    <ResourceValue>Save</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.InlineEdit.EditTooltip">
+    <ResourceValue>Edit</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Report.RefreshButton">
+    <ResourceValue>Refresh</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Report.PreviousButton">
+    <ResourceValue>Previous Page</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Logon.PasswordLabel">
+    <ResourceValue>Password:</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ParameterInput.Prompt">
+    <ResourceValue>Please supply the following values:</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.AlternateRowColor">
+    <ResourceValue>#FFFFFF</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Logon.TimeoutTitle">
+    <ResourceValue>Inactivity Timeout</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Logon.UsernameLabel">
+    <ResourceValue>Username:</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Logon.UsernamePasswordPrompt">
+    <ResourceValue>Please enter your username and password.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.NextButton.Default">
+    <ResourceValue>Next</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Report.PageIndicator">
+    <ResourceValue>Page: {0} of {1}</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ParameterInput.InfoRequired">
+    <ResourceValue>The "{0}" screen requires additional information before it can be displayed.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Report.NoRecords">
+    <ResourceValue>There are no records to display.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ParameterInput.ResetButton">
+    <ResourceValue>Reset</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ParameterInput.SendButton">
+    <ResourceValue>Send</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ParameterInput.Title">
+    <ResourceValue>Parameter Input</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Report.FirstButton">
+    <ResourceValue>First Page</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Report.LastButton">
+    <ResourceValue>Last Page</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.TitleBarFontFamily">
+    <ResourceValue>Arial, Helvetica, sans-serif</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.PagePreferences.SaveButton">
+    <ResourceValue>Save</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.PromptConfirmMessage">
+    <ResourceValue>Please Confirm</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.PagePreferences.RevertButton">
+    <ResourceValue>Revert</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.GetMenuListModelHeading">
+    <ResourceValue>An error occurred requesting the menu list.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.GetMenuModelHeading">
+    <ResourceValue>An error occurred requesting a menu level.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.SaveReportPagePreferencesHeading">
+    <ResourceValue>An error occurred saving preferences.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Workflow.ProcessingMessage">
+    <ResourceValue>Processing...</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.RowOperation.FailureMessage">
+    <ResourceValue>No changes were applied.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.LoggedInAs">
+    <ResourceValue>Logged in as {0}</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.PagePreferences.RevertMessage">
+    <ResourceValue>Page Preferences reverted.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.PromptConfirmButton">
+    <ResourceValue>Confirm</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.PromptCancelButton">
+    <ResourceValue>Cancel</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.FavoriteDialog.FavoriteGroupHeading">
+    <ResourceValue>Group</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.FavoriteDialog.NewGroupButton">
+    <ResourceValue>New Group</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.FavoriteDialog.DuplicateError">
+    <ResourceValue>The favorite name is already included in this group.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.FavoriteDialog.DuplicateGroupError">
+    <ResourceValue>A group with this name already exists.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.MenuButton">
+    <ResourceValue>Menu</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.ExecuteWorkflowHeading">
+    <ResourceValue>An error occurred executing a workflow.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Logon.Message.Verify">
+    <ResourceValue>Unable to verify your username and password.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.TitleBarFontSize">
+    <ResourceValue>24pt</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.TitleBarForeColor">
+    <ResourceValue>#FFFFFF</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.DeleteEditPageRecordHeading">
+    <ResourceValue>An error occurred deleting the record.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.ExecuteRowOperationHeading">
+    <ResourceValue>An error occurred executing a row operation.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.GetLinkPageModelHeading">
+    <ResourceValue>An error occurred transforming a link.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.AllRightsReserved">
+    <ResourceValue>All Rights Reserved.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.HiddenColumnsHeader">
+    <ResourceValue>Hidden Columns</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.ExportReportPageDataHeading">
+    <ResourceValue>An error occurred exporting the data.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.PagePreferences.SaveMessage">
+    <ResourceValue>Page Preferences saved.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.GetApplicationSettingsHeading">
+    <ResourceValue>An error occurred requesting application settings.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.GetCrystalReportLinkModelHeading">
+    <ResourceValue>An error occurred requesting the report URL.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.GetEditPageModelHeading">
+    <ResourceValue>An error occurred requesting an edit page.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.GetExtensionPageModelHeading">
+    <ResourceValue>An error occurred requesting an extension page.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.HelpLink">
+    <ResourceValue>SendEmail Help</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Clipboard.FailureMessage">
+    <ResourceValue>Clipboard access not allowed.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.Clipboard.CopyRow">
+    <ResourceValue>Copy Row</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.ConfirmButton">
+    <ResourceValue>OK</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.CancelEditPageHeading">
+    <ResourceValue>An error occurred leaving the edit page.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.Message.IncompleteParams">
+    <ResourceValue>This web page [{0}, ID={1}] was not passed a complete list of parameters in update mode.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.Message.ConfirmDelete">
+    <ResourceValue>Are you sure you want to delete this record?</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Logon.SavePasswordCheckbox">
+    <ResourceValue>Save Password</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.InsertButton">
+    <ResourceValue>Insert</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.DeleteImageCheckbox">
+    <ResourceValue>Delete image</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.DeleteButton">
+    <ResourceValue>Delete</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.CancelButton">
+    <ResourceValue>Cancel</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.FavoriteDialog.CopyPageUrlToolTip">
+    <ResourceValue>Copy Page URL</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Clipboard.SuccessMessage">
+    <ResourceValue>Information copied to the Clipboard.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.UnfreezeAllButton">
+    <ResourceValue>Unfreeze All</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Logon.PasswordPrompt">
+    <ResourceValue>Please enter your password.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Menu.UnpinButton">
+    <ResourceValue>Unpin Menu</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialogTitle">
+    <ResourceValue>Error</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.SortAscendingButton">
+    <ResourceValue>Sort</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.SortDescendingButton">
+    <ResourceValue>Sort</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.UnsortButton">
+    <ResourceValue>Unsort</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.ChartLegend">
+    <ResourceValue>0</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.BackButton.Default">
+    <ResourceValue>Back</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Menu.PinButton">
+    <ResourceValue>Pin Menu</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Rulers">
+    <ResourceValue>1</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Menu.RefreshButton">
+    <ResourceValue>Refresh Menu</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Menu.CloseButton">
+    <ResourceValue>Close Menu</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Thread.Navigation.PreviousButton">
+    <ResourceValue>Previous</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Thread.Navigation.NextButton">
+    <ResourceValue>Next</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.UnfreezeButton">
+    <ResourceValue>Unfreeze</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.Message.NoData">
+    <ResourceValue>This web page [{0}, ID={1}] could not find data to update. It is possible that this data has been deleted by another user.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.ExitLink">
+    <ResourceValue>1</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Image.ImagePlaceholder">
+    <ResourceValue>Image</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.Message.Modified">
+    <ResourceValue>Another user or process modified the record while you were editing it.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.Validation.Required">
+    <ResourceValue>The field {0} is required</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ExitLink">
+    <ResourceValue>Logoff</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.ExportButton">
+    <ResourceValue>Export</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Image.EmptyPlaceholder">
+    <ResourceValue>Empty</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.Validation.Precision">
+    <ResourceValue>The field {0} failed validation because it has too many digits [{1}] to the right of the decimal. The maximum allowed is {2}.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.PagePreferences.Header">
+    <ResourceValue>Page Preferences</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.Validation.Numeric">
+    <ResourceValue>The field {0} failed validation because it is not numeric.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Logon.ClearButton">
+    <ResourceValue>Clear</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Logon.LogonButton">
+    <ResourceValue>Logon</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Logon.LogonTitle">
+    <ResourceValue>Logon</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Logon.Message.EmptyUsername">
+    <ResourceValue>Please enter a username.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Logon.Message.MenuLevel">
+    <ResourceValue>User '{0}' is not assigned to a web menu level.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Logon.Message.UserGroup">
+    <ResourceValue>Could not find any user group assignments for '{0}'. Please contact your system administrator.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Menu.SearchButton">
+    <ResourceValue>Search</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.UnsupportedWebBrowserMessage">
+    <ResourceValue>The application is not supported on this web browser. For a list of supported web browsers, see {0}.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.UserMenu.Favorites.Text">
+    <ResourceValue>Favorites</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.Message.Override">
+    <ResourceValue>Override?</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.Clipboard.CopyCell">
+    <ResourceValue>Copy Cell</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.Message.SqlErrorCheckCount">
+    <ResourceValue>A SQL error occurred while validating that this edit page only accesses one record in the {0} table.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.Message.UpdateFailed">
+    <ResourceValue>Could not update record:</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.Validation.Range">
+    <ResourceValue>The field {0} failed validation because it is not within its defined numeric range of {1} through {2}.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.Message.WhereInvalid">
+    <ResourceValue>WHERE clause is not valid.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.Message.MultipleRows">
+    <ResourceValue>This web page [{0}, ID={1}] is attempting to edit more than one row of data.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.Message.WhereReturn">
+    <ResourceValue>WHERE clause did not return one row for an update or delete.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.OverrideButton">
+    <ResourceValue>Override</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.ResetButton">
+    <ResourceValue>Reset</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.UpdateButton">
+    <ResourceValue>Update</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.Validation.Date">
+    <ResourceValue>The field {0} failed validation because it is not a valid date.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.Validation.MaxLength">
+    <ResourceValue>The field {0} failed validation. User Input Length = {1}. Valid Input Length must be less than or equal to {2}.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.Message.UpdateFieldFailed">
+    <ResourceValue>Failed to update field {0}.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType.Doughnut">
+    <ResourceValue>Doughnut</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.MarkerType.Diamond">
+    <ResourceValue>Diamond</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.MarkerType.Cross">
+    <ResourceValue>Cross</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.MarkerType.Circle">
+    <ResourceValue>Circle</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.MarkerType">
+    <ResourceValue>Marker Type</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.SeriesDisplayOptions">
+    <ResourceValue>Series Display Options</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.Theme5">
+    <ResourceValue>Theme 5</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.Theme4">
+    <ResourceValue>Theme 4</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.Theme3">
+    <ResourceValue>Theme 3</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.Theme2">
+    <ResourceValue>Theme 2</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.Theme1">
+    <ResourceValue>Theme 1</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.Themes">
+    <ResourceValue>Themes</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.VerticalGridlines">
+    <ResourceValue>Vertical Gridlines</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.HorizontalGridlines">
+    <ResourceValue>Horizontal Gridlines</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.FavoritesMenu.Title">
+    <ResourceValue>Favorites</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType.Mark">
+    <ResourceValue>Mark</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.XaxisLabels">
+    <ResourceValue>X-axis Labels</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.SeriesPointLabels">
+    <ResourceValue>Series Point Labels</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.Legend">
+    <ResourceValue>Legend</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType">
+    <ResourceValue>Chart Type</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType.Line">
+    <ResourceValue>Line</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType.StackedBar">
+    <ResourceValue>Stacked Bar</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType.Spline">
+    <ResourceValue>Spline</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType.HorizontalBar">
+    <ResourceValue>Horizontal Bar</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType.Pie">
+    <ResourceValue>Pie</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType.Area">
+    <ResourceValue>Area</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType.Scatter">
+    <ResourceValue>Scatter</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType.HiLowOpenClose">
+    <ResourceValue>Hi-Low Open-Close</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType.Radar">
+    <ResourceValue>Radar</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.MarkerType.Triangle">
+    <ResourceValue>Triangle</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartType.Bar">
+    <ResourceValue>Bar</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Prompt.LoseUnsavedChangesConfirmation">
+    <ResourceValue>Warning! You will lose the changes on this page if you continue.
+Are you sure you want to leave this page?</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.MarkerType.Line">
+    <ResourceValue>Line</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.PagePreferences.Admin.PersonalButton">
+    <ResourceValue>Personal</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.MREApplyChangesError">
+    <ResourceValue>An error occurred applying changes.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.MREAddRowError">
+    <ResourceValue>An error occurred adding a new row.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.MREDeleteRowError">
+    <ResourceValue>An error occurred deleting the row.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.PagePreferences.Admin.RevertPromptMessage">
+    <ResourceValue>Revert default page preferences for all users or personal page preferences?</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Prompt.ContinueButton">
+    <ResourceValue>Continue</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.PagePreferences.Admin.RevertPromptTitle">
+    <ResourceValue>Revert Preferences</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Prompt.MightLoseUnsavedChanges">
+    <ResourceValue>Warning! You might lose the changes on this page if you continue.
+Are you sure you want to leave this page?</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.UnsavedChangesDialogTitle">
+    <ResourceValue>Unsaved Changes</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.AuthenticatingMessage">
+    <ResourceValue>Authenticating...</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.PromptAuthenticatedTitle">
+    <ResourceValue>Authenticated</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.PromptAuthenticatedMessage">
+    <ResourceValue>The authentication session was renewed.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.PromptAuthenticatedDetails">
+    <ResourceValue>The last action you performed did not complete. You must perform the action again.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.MREUpdateRowError">
+    <ResourceValue>An error occurred updating the row.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.MultiRowEditPage.DeleteRowTooltip">
+    <ResourceValue>Delete Row</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartDisplayOptions">
+    <ResourceValue>Chart Display Options</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.GetMREPageModelHeading">
+    <ResourceValue>An error occurred requesting a multi row edit page.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.MultiRowEditPage.ApplyButton">
+    <ResourceValue>Apply</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.MultiRowEditPage.DoneButton">
+    <ResourceValue>Done</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.MultiRowEditPage.ResetButton">
+    <ResourceValue>Reset</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.PagePreferences.Admin.DefaultButton">
+    <ResourceValue>Default</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.MultiRowEditPage.AddNewRowTooltip">
+    <ResourceValue>Add New Row</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.MarkerType.Square">
+    <ResourceValue>Square</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.MultiRowEditPage.UndoDeleteRowTooltip">
+    <ResourceValue>Undo Delete Row</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.MultiRowEditPage.AllChangesApplied">
+    <ResourceValue>All changes applied.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.MultiRowEditPage.PageValidationErrors">
+    <ResourceValue>There are validation errors on the page.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.MultiRowEditPage.RowValidationErrors">
+    <ResourceValue>There are validation errors on the row.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.PagePreferences.Admin.SavePromptTitle">
+    <ResourceValue>Save Preferences</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.PagePreferences.Admin.SavePromptMessage">
+    <ResourceValue>Save default page preferences for all users or personal page preferences?</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.MultiRowEditPage.CancelButton">
+    <ResourceValue>Cancel</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.HideButton">
+    <ResourceValue>Hide</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.FavoriteDialog.CreateHeading">
+    <ResourceValue>Create Favorite</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.ValidateSearchPageHeading">
+    <ResourceValue>An error occurred validating the data.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Edit.UploadImageButton">
+    <ResourceValue>Select File</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Image.DisplayFailedMessage">
+    <ResourceValue>Unable to display the image.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.WebWiseHelp">
+    <ResourceValue>WebWise Help</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.UpdateReportPageRecordHeading">
+    <ResourceValue>An error occurred updating the record.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.FreezeButton">
+    <ResourceValue>Freeze</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.UpdateEditPageRecordHeading">
+    <ResourceValue>An error occurred updating the record.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.FavoriteDialog.CancelButton">
+    <ResourceValue>Cancel</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.FavoriteDialog.SaveButton">
+    <ResourceValue>Save</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.FavoriteDialog.DeleteFavoriteHeading">
+    <ResourceValue>Delete Favorite</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.FavoriteDialog.DeleteGroupHeading">
+    <ResourceValue>Delete Group</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.FavoriteDialog.DeleteGroupConfirmation">
+    <ResourceValue>Warning! Deleting a group will delete all of the favorites within the group.
+
+Are you sure you want to delete the group {0}?</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.YaxisLabels">
+    <ResourceValue>Y-axis Labels</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.HelpButton">
+    <ResourceValue>Help</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.GetMenuPageModelHeading">
+    <ResourceValue>An error occurred requesting a menu page.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.UnhideButton">
+    <ResourceValue>Unhide</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.UserMenu.Favorites.ImportText">
+    <ResourceValue>Import</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.UserMenu.Favorites.ExportText">
+    <ResourceValue>Export</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Favorites.ImportSucceededMessage">
+    <ResourceValue>Favorites imported.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Thread.ClosePromptTitle">
+    <ResourceValue>Close</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.RevertReportPagePreferencesHeading">
+    <ResourceValue>An error occurred reverting preferences.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.PrintButton">
+    <ResourceValue>Print</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.FavoriteDialog.EditHeading">
+    <ResourceValue>Edit Favorite</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.GetReportPageModelHeading">
+    <ResourceValue>An error occurred requesting a report page.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.GetSearchPageModelHeading">
+    <ResourceValue>An error occurred requesting a search page.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.HideDetailsButton">
+    <ResourceValue>Hide Details</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.InsertEditPageRecordHeading">
+    <ResourceValue>An error occurred inserting the record.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.LogoffHeading">
+    <ResourceValue>An error occurred logging off.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ErrorDialog.ShowDetailsButton">
+    <ResourceValue>Show Details</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Thread.ClosePromptMessage">
+    <ResourceValue>Are you sure you want to close thread {0}?</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Filters.ApplyFiltersButton">
+    <ResourceValue>Apply Filters</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.FavoriteDialog.DeleteFavoriteConfirmation">
+    <ResourceValue>Are you sure you want to delete the favorite {0}?</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.AvailableStorage.IncreaseConfirmationMessage">
+    <ResourceValue>Confirm available storage increase and retry.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.AvailableStorage.IncreaseSucceededMessage">
+    <ResourceValue>Available storage increased. Try operation again.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.AvailableStorage.IncreaseFailedMessage">
+    <ResourceValue>Unable to increase available storage.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.AvailableStorage.IncreaseErrorMessage">
+    <ResourceValue>An error occurred increasing available storage.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Filters.InvalidDateTimeFilterError">
+    <ResourceValue>Unable to convert filter value [{0}] to a DateTime for column [{1}]. The filter was not applied.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Filters.InvalidFilterError">
+    <ResourceValue>Unable to format filter [{0}] for column [{1}]. The filter was not applied.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.PromptOkButton">
+    <ResourceValue>OK</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Filters.FiltersOffButton">
+    <ResourceValue>Filters Off</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Filters.FiltersOnButton">
+    <ResourceValue>Filters On</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Filters.FailedToApplyFilterError">
+    <ResourceValue>Failed to apply filter to page. Filter: {0}</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.ChartData">
+    <ResourceValue>Chart Data</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.Export">
+    <ResourceValue>Export</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.FindButton">
+    <ResourceValue>Find</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Favorites.ImportFailedMessage">
+    <ResourceValue>Unable to import favorites</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Favorites.ExportSucceededMessage">
+    <ResourceValue>Favorites exported.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.FavoriteDialog.EditFavoriteGroupHeading">
+    <ResourceValue>Edit Group</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.FavoriteDialog.FavoriteNameHeading">
+    <ResourceValue>Name</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.FavoritesMenu.DeleteFavoriteButton">
+    <ResourceValue>Delete Favorite</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.FavoritesMenu.DeleteFavoriteGroupButton">
+    <ResourceValue>Delete Group</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.FavoritesMenu.EditFavoriteButton">
+    <ResourceValue>Edit Favorite</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Filters.InvalidNumberFilterError">
+    <ResourceValue>Unable to convert filter value [{0}] to a Number for column [{1}]. The filter was not applied.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.ReportPage.FindText">
+    <ResourceValue>Find:</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Charting.ContextMenu.Enable3d">
+    <ResourceValue>Enable 3-D</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Favorites.ExportDialog.Title">
+    <ResourceValue>Export Favorites</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Favorites.ExportDialog.ExportButton">
+    <ResourceValue>Export</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Favorites.ExportDialog.CancelButton">
+    <ResourceValue>Cancel</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.AvailableStorage.InsufficientSpaceMessage">
+    <ResourceValue>There is not enough available storage.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Favorites.ImportErrorMessage">
+    <ResourceValue>An error occurred importing favorites.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.Favorites.ExportErrorMessage">
+    <ResourceValue>An error occurred exporting favorites.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="GlobalPageSetting.Text.FavoritesMenu.EditFavoriteGroupButton">
+    <ResourceValue>Edit Group</ResourceValue>
+  </ResourceItem>
+</ResourceList>

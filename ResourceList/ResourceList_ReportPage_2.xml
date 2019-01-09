@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-highjump-com:webwise-resource-list">
+  <ResourceItem CultureName="en-US" ResourceId="Page.2.Title">
+    <ResourceValue>Email Recipients</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.2.SqlStatement.StatementText.sqlserver">
+    <ResourceValue>SELECT
+    r.to_id,
+    r.email_address,
+    r.wh_id,
+	s.subscriptions
+FROM
+    t_en_recipients r
+OUTER APPLY (SELECT COUNT(*) AS subscriptions FROM t_en_subscription WHERE wh_id = r.wh_id AND to_id = r.to_id) s
+WHERE
+   r.email_address LIKE N'~email_address~'</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.2.SqlStatement.InputParameters.sqlserver">
+    <ResourceValue>email_address</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.2.SqlStatement.SessionParameters.sqlserver">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.2.SqlStatement.FieldParameters.sqlserver">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.2.SqlStatement.StatementText.oracle">
+    <ResourceValue>SELECT
+    to_id,
+    email_address,
+    wh_id
+FROM
+    t_en_recipients
+WHERE
+   email_address LIKE '~email_address~'</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.2.SqlStatement.InputParameters.oracle">
+    <ResourceValue>email_address</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.2.SqlStatement.SessionParameters.oracle">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.2.SqlStatement.FieldParameters.oracle">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.2.UpdateSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.2.UpdateSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.2.UpdateSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.2.UpdateSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="en-US" ResourceId="Page.2.Nav.2.Title">
+    <ResourceValue>Add New Email Recipient</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.2.Nav.2.Param.v_vchTo_ID.DefaultValue">
+    <ResourceValue>to_id</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.2.Nav.2.Param.v_vchWhse_ID.DefaultValue">
+    <ResourceValue>wh_id</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.2.Column.email_address.Title">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.2.Column.subscriptions.Title">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.2.Column.to_id.Title">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.2.Column.wh_id.Title">
+    <ResourceValue>Warehouse ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.2.InputParamList.oracle">
+    <ResourceValue>email_address</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.2.InputParamList.sqlserver">
+    <ResourceValue>email_address</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.2.Title">
+    <ResourceValue>Email Recipients</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.2.SqlStatement.StatementText.sqlserver">
+    <ResourceValue>SELECT
+    r.to_id,
+    r.email_address,
+    r.wh_id,
+	s.subscriptions
+FROM
+    t_en_recipients r
+OUTER APPLY (SELECT COUNT(*) AS subscriptions FROM t_en_subscription WHERE wh_id = r.wh_id AND to_id = r.to_id) s
+WHERE
+   r.email_address LIKE N'~email_address~'</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.2.SqlStatement.InputParameters.sqlserver">
+    <ResourceValue>email_address</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.2.SqlStatement.SessionParameters.sqlserver">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.2.SqlStatement.FieldParameters.sqlserver">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.2.SqlStatement.StatementText.oracle">
+    <ResourceValue>SELECT
+    to_id,
+    email_address,
+    wh_id
+FROM
+    t_en_recipients
+WHERE
+   email_address LIKE '~email_address~'</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.2.SqlStatement.InputParameters.oracle">
+    <ResourceValue>email_address</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.2.SqlStatement.SessionParameters.oracle">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.2.SqlStatement.FieldParameters.oracle">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.2.UpdateSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.2.UpdateSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.2.UpdateSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.2.UpdateSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="" ResourceId="Page.2.Nav.2.Title">
+    <ResourceValue>Add New Email Recipient</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.2.Nav.2.Param.v_vchTo_ID.DefaultValue">
+    <ResourceValue>to_id</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.2.Nav.2.Param.v_vchWhse_ID.DefaultValue">
+    <ResourceValue>wh_id</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.2.Column.email_address.Title">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.2.Column.subscriptions.Title">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.2.Column.to_id.Title">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.2.Column.wh_id.Title">
+    <ResourceValue>Warehouse ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.2.InputParamList.oracle">
+    <ResourceValue>email_address</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.2.InputParamList.sqlserver">
+    <ResourceValue>email_address</ResourceValue>
+  </ResourceItem>
+</ResourceList>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-highjump-com:webwise-resource-list">
+  <ResourceItem CultureName="en-US" ResourceId="Page.6.Title">
+    <ResourceValue>Search Subscriptions</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.6.Header">
+    <ResourceValue>To display a list of Subscribers for a given Email Template:
+
+1) Select either an exact search or a like search. 
+2) Enter the Email Template name (or partial template name).
+3) Click the Query button.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.6.Footer">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.6.QueryButton">
+    <ResourceValue>Query</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.6.ResetButton">
+    <ResourceValue>Reset</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.6.CancelButton">
+    <ResourceValue>Cancel</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.6.Column.email_address.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.6.Column.email_address.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.6.Column.email_address.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.6.Column.email_address.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="en-US" ResourceId="Page.6.Column.email_name.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.6.Column.email_name.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.6.Column.email_name.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.6.Column.email_name.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="en-US" ResourceId="Page.6.Column.email_address.Title">
+    <ResourceValue>Email Address</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.6.Column.email_name.Title">
+    <ResourceValue>Email Template</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.6.Column.email_name.Picklist.%">
+    <ResourceValue>&lt;ANY&gt;</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.6.Column.email_name.PicklistSql.StatementText.default">
+    <ResourceValue>SELECT 
+   DISTINCT email_name
+FROM
+    t_en_email</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.6.Column.email_name.PicklistSql.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.6.Column.email_name.PicklistSql.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.6.Column.email_name.PicklistSql.FieldParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.6.Title">
+    <ResourceValue>Search Subscriptions</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.6.Header">
+    <ResourceValue>To display a list of Subscribers for a given Email Template:
+
+1) Select either an exact search or a like search. 
+2) Enter the Email Template name (or partial template name).
+3) Click the Query button.</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.6.Footer">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.6.QueryButton">
+    <ResourceValue>Query</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.6.ResetButton">
+    <ResourceValue>Reset</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.6.CancelButton">
+    <ResourceValue>Cancel</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.6.Column.email_address.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.6.Column.email_address.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.6.Column.email_address.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.6.Column.email_address.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="" ResourceId="Page.6.Column.email_name.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.6.Column.email_name.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.6.Column.email_name.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.6.Column.email_name.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="" ResourceId="Page.6.Column.email_address.Title">
+    <ResourceValue>Email Address</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.6.Column.email_name.Title">
+    <ResourceValue>Email Template</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.6.Column.email_name.Picklist.%">
+    <ResourceValue>&lt;ANY&gt;</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.6.Column.email_name.PicklistSql.StatementText.default">
+    <ResourceValue>SELECT 
+   DISTINCT email_name
+FROM
+    t_en_email</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.6.Column.email_name.PicklistSql.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.6.Column.email_name.PicklistSql.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.6.Column.email_name.PicklistSql.FieldParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+</ResourceList>

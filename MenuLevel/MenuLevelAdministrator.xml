@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MenuLevel xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Administrator" xmlns="urn:schemas-highjump-com:webwise-menu-level">
+  <MenuNode DisplayTextResourceId="MenuLevel.Administrator.Name.MAIN.Sequence.1">
+    <Link>
+      <LinkPath>GenSearch.aspx?ID=4</LinkPath>
+      <TargetPageId>4</TargetPageId>
+      <TargetPageType>Search</TargetPageType>
+      <TargetApplicationName />
+      <InternalLink>true</InternalLink>
+      <IsLinkPage>false</IsLinkPage>
+      <CrystalLink>false</CrystalLink>
+      <LinkParameters />
+    </Link>
+  </MenuNode>
+  <MenuNode DisplayTextResourceId="MenuLevel.Administrator.Name.MAIN.Sequence.2">
+    <Link>
+      <LinkPath>GenSearch.aspx?ID=5</LinkPath>
+      <TargetPageId>5</TargetPageId>
+      <TargetPageType>Search</TargetPageType>
+      <TargetApplicationName />
+      <InternalLink>true</InternalLink>
+      <IsLinkPage>false</IsLinkPage>
+      <CrystalLink>false</CrystalLink>
+      <LinkParameters />
+    </Link>
+  </MenuNode>
+  <MenuNode DisplayTextResourceId="MenuLevel.Administrator.Name.MAIN.Sequence.3">
+    <Link>
+      <LinkPath>GenSearch.aspx?ID=6</LinkPath>
+      <TargetPageId>6</TargetPageId>
+      <TargetPageType>Search</TargetPageType>
+      <TargetApplicationName />
+      <InternalLink>true</InternalLink>
+      <IsLinkPage>false</IsLinkPage>
+      <CrystalLink>false</CrystalLink>
+      <LinkParameters />
+    </Link>
+  </MenuNode>
+</MenuLevel>

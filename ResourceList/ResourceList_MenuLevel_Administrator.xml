@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-highjump-com:webwise-resource-list">
+  <ResourceItem CultureName="en-US" ResourceId="MenuLevel.Administrator.Name.MAIN.Sequence.1">
+    <ResourceValue>Email Templates</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="MenuLevel.Administrator.Name.MAIN.Sequence.2">
+    <ResourceValue>Email Recipients</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="MenuLevel.Administrator.Name.MAIN.Sequence.3">
+    <ResourceValue>Subscriptions</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="MenuLevel.Administrator.Name.MAIN.Sequence.1">
+    <ResourceValue>Email Templates</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="MenuLevel.Administrator.Name.MAIN.Sequence.2">
+    <ResourceValue>Email Recipients</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="MenuLevel.Administrator.Name.MAIN.Sequence.3">
+    <ResourceValue>Subscriptions</ResourceValue>
+  </ResourceItem>
+</ResourceList>

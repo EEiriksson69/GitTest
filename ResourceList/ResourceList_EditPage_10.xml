@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-highjump-com:webwise-resource-list">
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Title">
+    <ResourceValue>Add/Edit Email Templates</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.SqlStatement.StatementText.default">
+    <ResourceValue>WHERE
+   email_id = N'~v_vchEmail_ID~'</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.SqlStatement.InputParameters.default">
+    <ResourceValue>v_vchEmail_ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.SqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.SqlStatement.FieldParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.FieldGroup.2.Description">
+    <ResourceValue>Template</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.FieldGroup.1.Description">
+    <ResourceValue>Record Info</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.date_added.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.date_added.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.date_added.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.date_added.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.date_updated.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.date_updated.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.date_updated.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.date_updated.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.email_id.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.email_id.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.email_id.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.email_id.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.email_name.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.email_name.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.email_name.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.email_name.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.last_update_user.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.last_update_user.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.last_update_user.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.last_update_user.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.subject.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.subject.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.subject.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.subject.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.subject_dynamic.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.subject_dynamic.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.subject_dynamic.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.subject_dynamic.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.text.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.text.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.text.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.text.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.text_dynamic.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.text_dynamic.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.text_dynamic.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.text_dynamic.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.ww_username.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.ww_username.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.ww_username.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.ww_username.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.date_added.Title">
+    <ResourceValue>Date Created</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.date_added.DefaultValueSql.StatementText.default">
+    <ResourceValue>SELECT GETDATE()</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.date_added.DefaultValueSql.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.date_added.DefaultValueSql.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.date_added.DefaultValueSql.FieldParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.date_updated.Title">
+    <ResourceValue>Date Updated</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.email_id.Title">
+    <ResourceValue>Email ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.email_id.DefaultValueSql.StatementText.default">
+    <ResourceValue>SELECT 
+    MAX(
+        email_id)+1
+FROM
+    t_en_email</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.email_id.DefaultValueSql.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.email_id.DefaultValueSql.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.email_id.DefaultValueSql.FieldParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.email_name.Title">
+    <ResourceValue>Email Template Name</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.last_update_user.Title">
+    <ResourceValue>Created By</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.last_update_user.DefaultValueSql.StatementText.default">
+    <ResourceValue>SELECT '~WW_USERNAME~'</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.last_update_user.DefaultValueSql.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.last_update_user.DefaultValueSql.SessionParameters.default">
+    <ResourceValue>WW_USERNAME</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.last_update_user.DefaultValueSql.FieldParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.subject.Title">
+    <ResourceValue>Subject</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.subject_dynamic.Title">
+    <ResourceValue>Subject Action</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.subject_dynamic.Picklist.None">
+    <ResourceValue>Always Use Template</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.subject_dynamic.Picklist.Overwrite">
+    <ResourceValue>Overwrite Template</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.subject_dynamic.Picklist.Concatenate">
+    <ResourceValue>Automerge Fields</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.text.Title">
+    <ResourceValue>Default Text</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.text_dynamic.Title">
+    <ResourceValue>Text Action</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.text_dynamic.Picklist.None">
+    <ResourceValue>Always Use Template</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.text_dynamic.Picklist.Overwrite">
+    <ResourceValue>Overwrite Template</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.text_dynamic.Picklist.Concatenate">
+    <ResourceValue>Automerge Fields</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="en-US" ResourceId="Page.10.Column.ww_username.Title">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Title">
+    <ResourceValue>Add/Edit Email Templates</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.SqlStatement.StatementText.default">
+    <ResourceValue>WHERE
+   email_id = N'~v_vchEmail_ID~'</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.SqlStatement.InputParameters.default">
+    <ResourceValue>v_vchEmail_ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.SqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.SqlStatement.FieldParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.FieldGroup.2.Description">
+    <ResourceValue>Template</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.FieldGroup.1.Description">
+    <ResourceValue>Record Info</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.date_added.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.date_added.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.date_added.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.date_added.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.date_updated.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.date_updated.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.date_updated.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.date_updated.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.email_id.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.email_id.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.email_id.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.email_id.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.email_name.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.email_name.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.email_name.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.email_name.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.last_update_user.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.last_update_user.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.last_update_user.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.last_update_user.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.subject.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.subject.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.subject.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.subject.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.subject_dynamic.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.subject_dynamic.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.subject_dynamic.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.subject_dynamic.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.text.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.text.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.text.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.text.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.text_dynamic.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.text_dynamic.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.text_dynamic.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.text_dynamic.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.ww_username.ValidationSqlStatement.StatementText.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.ww_username.ValidationSqlStatement.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.ww_username.ValidationSqlStatement.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.ww_username.ValidationSqlStatement.FieldParameters.default" />
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.date_added.Title">
+    <ResourceValue>Date Created</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.date_added.DefaultValueSql.StatementText.default">
+    <ResourceValue>SELECT GETDATE()</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.date_added.DefaultValueSql.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.date_added.DefaultValueSql.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.date_added.DefaultValueSql.FieldParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.date_updated.Title">
+    <ResourceValue>Date Updated</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.email_id.Title">
+    <ResourceValue>Email ID</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.email_id.DefaultValueSql.StatementText.default">
+    <ResourceValue>SELECT 
+    MAX(
+        email_id)+1
+FROM
+    t_en_email</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.email_id.DefaultValueSql.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.email_id.DefaultValueSql.SessionParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.email_id.DefaultValueSql.FieldParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.email_name.Title">
+    <ResourceValue>Email Template Name</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.last_update_user.Title">
+    <ResourceValue>Created By</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.last_update_user.DefaultValueSql.StatementText.default">
+    <ResourceValue>SELECT '~WW_USERNAME~'</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.last_update_user.DefaultValueSql.InputParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.last_update_user.DefaultValueSql.SessionParameters.default">
+    <ResourceValue>WW_USERNAME</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.last_update_user.DefaultValueSql.FieldParameters.default">
+    <ResourceValue />
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.subject.Title">
+    <ResourceValue>Subject</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.subject_dynamic.Title">
+    <ResourceValue>Subject Action</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.subject_dynamic.Picklist.None">
+    <ResourceValue>Always Use Template</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.subject_dynamic.Picklist.Overwrite">
+    <ResourceValue>Overwrite Template</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.subject_dynamic.Picklist.Concatenate">
+    <ResourceValue>Automerge Fields</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.text.Title">
+    <ResourceValue>Default Text</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.text_dynamic.Title">
+    <ResourceValue>Text Action</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.text_dynamic.Picklist.None">
+    <ResourceValue>Always Use Template</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.text_dynamic.Picklist.Overwrite">
+    <ResourceValue>Overwrite Template</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.text_dynamic.Picklist.Concatenate">
+    <ResourceValue>Automerge Fields</ResourceValue>
+  </ResourceItem>
+  <ResourceItem CultureName="" ResourceId="Page.10.Column.ww_username.Title">
+    <ResourceValue />
+  </ResourceItem>
+</ResourceList>
