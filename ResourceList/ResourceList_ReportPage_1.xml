@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ResourceList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-highjump-com:webwise-resource-list">
   <ResourceItem CultureName="en-US" ResourceId="Page.1.Title">
-    <ResourceValue>Email Templates</ResourceValue>
+    <ResourceValue>Email Templates WMS1</ResourceValue>
   </ResourceItem>
   <ResourceItem CultureName="en-US" ResourceId="Page.1.SqlStatement.StatementText.sqlserver(header)">
     <ResourceValue>SELECT 	'&lt;p&gt;To view or edit the Text Body for a template, click the corresponding row number.&lt;/p&gt;' +
@@ -144,7 +144,7 @@ ORDER BY
     <ResourceValue>Email_Name~Subject~Text</ResourceValue>
   </ResourceItem>
   <ResourceItem CultureName="" ResourceId="Page.1.Title">
-    <ResourceValue>Email Templates</ResourceValue>
+    <ResourceValue>Email Templates WMS1</ResourceValue>
   </ResourceItem>
   <ResourceItem CultureName="" ResourceId="Page.1.SqlStatement.StatementText.sqlserver(header)">
     <ResourceValue>SELECT 	'&lt;p&gt;To view or edit the Text Body for a template, click the corresponding row number.&lt;/p&gt;' +
