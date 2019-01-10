@@ -10,10 +10,11 @@
   <Page Id="8" DataSourceType="3" PageType="Edit" />
   <Page Id="9" DataSourceType="3" PageType="Edit" />
   <Page Id="10" DataSourceType="3" PageType="Edit" />
-  <Page Id="-40" DataSourceType="8" PageType="MultiRowEdit" />
+  <Page Id="-40" DataSourceType="8" PageType="Undefined" />
   <Page Id="-30" DataSourceType="4" PageType="Search" />
   <Page Id="-20" DataSourceType="2" PageType="Report" />
   <Page Id="-10" DataSourceType="3" PageType="Edit" />
   <Page Id="11" DataSourceType="2" PageType="Report" />
   <Page Id="12" DataSourceType="2" PageType="Report" />
+  <Page Id="13" DataSourceType="2" PageType="Report" />
 </MasterPageList>

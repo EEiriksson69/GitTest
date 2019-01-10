@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ResourceList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-highjump-com:webwise-resource-list">
   <ResourceItem CultureName="en-US" ResourceId="Page.5.Title">
-    <ResourceValue>Search Recipients</ResourceValue>
+    <ResourceValue>Search Recipients WMS3</ResourceValue>
   </ResourceItem>
   <ResourceItem CultureName="en-US" ResourceId="Page.5.Header">
     <ResourceValue>To display a list of Email Recipients:
@@ -67,7 +67,7 @@ FROM
     <ResourceValue />
   </ResourceItem>
   <ResourceItem CultureName="" ResourceId="Page.5.Title">
-    <ResourceValue>Search Recipients</ResourceValue>
+    <ResourceValue>Search Recipients WMS3</ResourceValue>
   </ResourceItem>
   <ResourceItem CultureName="" ResourceId="Page.5.Header">
     <ResourceValue>To display a list of Email Recipients:

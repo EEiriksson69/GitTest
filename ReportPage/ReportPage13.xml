@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReportPage xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="13" xmlns="urn:schemas-highjump-com:webwise-report-page">
+  <TitleResourceId>Page.13.Title</TitleResourceId>
+  <DataSourceType>2</DataSourceType>
+  <ScreenGroupId>0</ScreenGroupId>
+  <ConnectionId>1</ConnectionId>
+  <OpenNewThread>false</OpenNewThread>
+  <NextButton>
+    <Enabled>false</Enabled>
+    <EnabledSqlStatement />
+    <Sequence>0</Sequence>
+    <QueryLink TitleResourceId="Page.13.NextBack.0.Title">
+      <TargetPageId>0</TargetPageId>
+      <TargetPageType>Undefined</TargetPageType>
+      <InternalLink>false</InternalLink>
+      <IsLinkPage>false</IsLinkPage>
+      <CrystalLink>false</CrystalLink>
+      <LinkParameters />
+    </QueryLink>
+  </NextButton>
+  <BackButton>
+    <Enabled>false</Enabled>
+    <EnabledSqlStatement />
+    <Sequence>0</Sequence>
+    <QueryLink TitleResourceId="Page.13.NextBack.1.Title">
+      <TargetPageId>0</TargetPageId>
+      <TargetPageType>Undefined</TargetPageType>
+      <InternalLink>false</InternalLink>
+      <IsLinkPage>false</IsLinkPage>
+      <CrystalLink>false</CrystalLink>
+      <LinkParameters />
+    </QueryLink>
+  </BackButton>
+  <TouchScreen TouchScreenEnabled="false" />
+  <PageLinks>
+    <PageLink Name="6" TitleResourceId="Page.13.Nav.6.Title">
+      <LinkPath>GenEdit.aspx?ID=7&amp;NEW=TRUE</LinkPath>
+      <TargetPageId>7</TargetPageId>
+      <TargetPageType>Edit</TargetPageType>
+      <TargetApplicationName />
+      <InternalLink>true</InternalLink>
+      <IsLinkPage>false</IsLinkPage>
+      <CrystalLink>false</CrystalLink>
+      <LinkParameters>
+        <LinkParameter Name="v_vchTo_ID" ParameterType="Undefined" DefaultValueResourceId="Page.13.Nav.6.Param.v_vchTo_ID.DefaultValue" />
+        <LinkParameter Name="v_vchWhse_ID" ParameterType="Undefined" DefaultValueResourceId="Page.13.Nav.6.Param.v_vchWhse_ID.DefaultValue" />
+      </LinkParameters>
+    </PageLink>
+  </PageLinks>
+  <HeaderSqlStatements />
+  <RowsPerPage>10</RowsPerPage>
+  <Columns>
+    <Column Name="email_address">
+      <AllowSort>false</AllowSort>
+      <ColumnTitleResourceId>Page.13.Column.email_address.Title</ColumnTitleResourceId>
+      <ControlType>Edit</ControlType>
+      <GlobalFieldName />
+      <Visible>true</Visible>
+      <ReadOnly>false</ReadOnly>
+      <ConditionalFormatting />
+      <ColumnWidth>0</ColumnWidth>
+      <ColumnHeight>0</ColumnHeight>
+      <ColumnSpan>0</ColumnSpan>
+      <Required>false</Required>
+      <ConditionalVisibility />
+      <FieldGroupId>0</FieldGroupId>
+      <FieldGroupSequence>0</FieldGroupSequence>
+      <FieldGroupRow>0</FieldGroupRow>
+      <DefaultValue>
+        <DefaultValueSaveParam>false</DefaultValueSaveParam>
+        <DefaultValueCustomParam>false</DefaultValueCustomParam>
+        <DefaultValueSqlStatements />
+      </DefaultValue>
+      <ColumnLink>
+        <LinkPath />
+        <TargetPageId>0</TargetPageId>
+        <TargetPageType>Undefined</TargetPageType>
+        <TargetApplicationName />
+        <InternalLink>false</InternalLink>
+        <IsLinkPage>false</IsLinkPage>
+        <CrystalLink>false</CrystalLink>
+        <LinkParameters />
+      </ColumnLink>
+      <ImageSettings>
+        <ShowTextPlaceholder>false</ShowTextPlaceholder>
+        <ShowInlineImage>false</ShowInlineImage>
+        <ImageHeight>0</ImageHeight>
+        <ImageWidth>0</ImageWidth>
+        <ImageTableName />
+        <ImageMimetypeColumn />
+        <ImageFilenameColumn />
+        <ImageSqlStatements />
+        <ImageParameters />
+      </ImageSettings>
+      <Picklist>
+        <OrderFlag>ConstantsFirst</OrderFlag>
+        <PicklistSqlStatements />
+        <PicklistConstants />
+      </Picklist>
+      <Validation>
+        <Type>None</Type>
+        <Size>0</Size>
+        <LowerBound>0</LowerBound>
+        <UpperBound>0</UpperBound>
+        <DecimalPrecision>0</DecimalPrecision>
+        <Sql />
+      </Validation>
+      <TimeFormat>Short</TimeFormat>
+    </Column>
+    <Column Name="subscriptions">
+      <AllowSort>false</AllowSort>
+      <ColumnTitleResourceId>Page.13.Column.subscriptions.Title</ColumnTitleResourceId>
+      <ControlType>Edit</ControlType>
+      <GlobalFieldName />
+      <Visible>true</Visible>
+      <ReadOnly>true</ReadOnly>
+      <ConditionalFormatting />
+      <ColumnWidth>0</ColumnWidth>
+      <ColumnHeight>0</ColumnHeight>
+      <ColumnSpan>0</ColumnSpan>
+      <Required>false</Required>
+      <ConditionalVisibility />
+      <FieldGroupId>0</FieldGroupId>
+      <FieldGroupSequence>0</FieldGroupSequence>
+      <FieldGroupRow>0</FieldGroupRow>
+      <DefaultValue>
+        <DefaultValueSaveParam>false</DefaultValueSaveParam>
+        <DefaultValueCustomParam>false</DefaultValueCustomParam>
+        <DefaultValueSqlStatements />
+      </DefaultValue>
+      <ColumnLink>
+        <LinkPath>GenReport.aspx?ID=11</LinkPath>
+        <TargetPageId>11</TargetPageId>
+        <TargetPageType>Report</TargetPageType>
+        <TargetApplicationName />
+        <InternalLink>true</InternalLink>
+        <IsLinkPage>false</IsLinkPage>
+        <CrystalLink>false</CrystalLink>
+        <LinkParameters>
+          <LinkParameter Name="email_address" SourceColumn="email_address" ParameterType="Field" />
+          <LinkParameter Name="wh_id" SourceColumn="wh_id" ParameterType="Field" />
+        </LinkParameters>
+      </ColumnLink>
+      <ImageSettings>
+        <ShowTextPlaceholder>false</ShowTextPlaceholder>
+        <ShowInlineImage>false</ShowInlineImage>
+        <ImageHeight>0</ImageHeight>
+        <ImageWidth>0</ImageWidth>
+        <ImageTableName />
+        <ImageMimetypeColumn />
+        <ImageFilenameColumn />
+        <ImageSqlStatements />
+        <ImageParameters />
+      </ImageSettings>
+      <Picklist>
+        <OrderFlag>ConstantsFirst</OrderFlag>
+        <PicklistSqlStatements />
+        <PicklistConstants />
+      </Picklist>
+      <Validation>
+        <Type>None</Type>
+        <Size>0</Size>
+        <LowerBound>0</LowerBound>
+        <UpperBound>0</UpperBound>
+        <DecimalPrecision>0</DecimalPrecision>
+        <Sql />
+      </Validation>
+      <TimeFormat>Short</TimeFormat>
+    </Column>
+    <Column Name="to_id">
+      <AllowSort>false</AllowSort>
+      <ColumnTitleResourceId>Page.13.Column.to_id.Title</ColumnTitleResourceId>
+      <ControlType>Edit</ControlType>
+      <GlobalFieldName />
+      <Visible>false</Visible>
+      <ReadOnly>false</ReadOnly>
+      <ConditionalFormatting />
+      <ColumnWidth>0</ColumnWidth>
+      <ColumnHeight>0</ColumnHeight>
+      <ColumnSpan>0</ColumnSpan>
+      <Required>false</Required>
+      <ConditionalVisibility />
+      <FieldGroupId>0</FieldGroupId>
+      <FieldGroupSequence>0</FieldGroupSequence>
+      <FieldGroupRow>0</FieldGroupRow>
+      <DefaultValue>
+        <DefaultValueSaveParam>false</DefaultValueSaveParam>
+        <DefaultValueCustomParam>false</DefaultValueCustomParam>
+        <DefaultValueSqlStatements />
+      </DefaultValue>
+      <ColumnLink>
+        <LinkPath />
+        <TargetPageId>0</TargetPageId>
+        <TargetPageType>Undefined</TargetPageType>
+        <TargetApplicationName />
+        <InternalLink>false</InternalLink>
+        <IsLinkPage>false</IsLinkPage>
+        <CrystalLink>false</CrystalLink>
+        <LinkParameters />
+      </ColumnLink>
+      <ImageSettings>
+        <ShowTextPlaceholder>false</ShowTextPlaceholder>
+        <ShowInlineImage>false</ShowInlineImage>
+        <ImageHeight>0</ImageHeight>
+        <ImageWidth>0</ImageWidth>
+        <ImageTableName />
+        <ImageMimetypeColumn />
+        <ImageFilenameColumn />
+        <ImageSqlStatements />
+        <ImageParameters />
+      </ImageSettings>
+      <Picklist>
+        <OrderFlag>ConstantsFirst</OrderFlag>
+        <PicklistSqlStatements />
+        <PicklistConstants />
+      </Picklist>
+      <Validation>
+        <Type>None</Type>
+        <Size>0</Size>
+        <LowerBound>0</LowerBound>
+        <UpperBound>0</UpperBound>
+        <DecimalPrecision>0</DecimalPrecision>
+        <Sql />
+      </Validation>
+      <TimeFormat>Short</TimeFormat>
+    </Column>
+    <Column Name="wh_id">
+      <AllowSort>false</AllowSort>
+      <ColumnTitleResourceId>Page.13.Column.wh_id.Title</ColumnTitleResourceId>
+      <ControlType>Edit</ControlType>
+      <GlobalFieldName />
+      <Visible>true</Visible>
+      <ReadOnly>true</ReadOnly>
+      <ConditionalFormatting />
+      <ColumnWidth>0</ColumnWidth>
+      <ColumnHeight>0</ColumnHeight>
+      <ColumnSpan>0</ColumnSpan>
+      <Required>false</Required>
+      <ConditionalVisibility />
+      <FieldGroupId>0</FieldGroupId>
+      <FieldGroupSequence>0</FieldGroupSequence>
+      <FieldGroupRow>0</FieldGroupRow>
+      <DefaultValue>
+        <DefaultValueSaveParam>false</DefaultValueSaveParam>
+        <DefaultValueCustomParam>false</DefaultValueCustomParam>
+        <DefaultValueSqlStatements />
+      </DefaultValue>
+      <ColumnLink>
+        <LinkPath />
+        <TargetPageId>0</TargetPageId>
+        <TargetPageType>Undefined</TargetPageType>
+        <TargetApplicationName />
+        <InternalLink>false</InternalLink>
+        <IsLinkPage>false</IsLinkPage>
+        <CrystalLink>false</CrystalLink>
+        <LinkParameters />
+      </ColumnLink>
+      <ImageSettings>
+        <ShowTextPlaceholder>false</ShowTextPlaceholder>
+        <ShowInlineImage>false</ShowInlineImage>
+        <ImageHeight>0</ImageHeight>
+        <ImageWidth>0</ImageWidth>
+        <ImageTableName />
+        <ImageMimetypeColumn />
+        <ImageFilenameColumn />
+        <ImageSqlStatements />
+        <ImageParameters />
+      </ImageSettings>
+      <Picklist>
+        <OrderFlag>ConstantsFirst</OrderFlag>
+        <PicklistSqlStatements />
+        <PicklistConstants />
+      </Picklist>
+      <Validation>
+        <Type>None</Type>
+        <Size>0</Size>
+        <LowerBound>0</LowerBound>
+        <UpperBound>0</UpperBound>
+        <DecimalPrecision>0</DecimalPrecision>
+        <Sql />
+      </Validation>
+      <TimeFormat>Short</TimeFormat>
+    </Column>
+  </Columns>
+  <ReportSqlStatements>
+    <SqlStatement DatabaseType="sqlserver">
+      <SqlStatementTextResourceId>Page.13.SqlStatement.StatementText.sqlserver</SqlStatementTextResourceId>
+      <SqlInputParameterListResourceId>Page.13.SqlStatement.InputParameters.sqlserver</SqlInputParameterListResourceId>
+      <SqlSessionParameterListResourceId>Page.13.SqlStatement.SessionParameters.sqlserver</SqlSessionParameterListResourceId>
+      <SqlFieldParameterListResourceId>Page.13.SqlStatement.FieldParameters.sqlserver</SqlFieldParameterListResourceId>
+    </SqlStatement>
+    <SqlStatement DatabaseType="oracle">
+      <SqlStatementTextResourceId>Page.13.SqlStatement.StatementText.oracle</SqlStatementTextResourceId>
+      <SqlInputParameterListResourceId>Page.13.SqlStatement.InputParameters.oracle</SqlInputParameterListResourceId>
+      <SqlSessionParameterListResourceId>Page.13.SqlStatement.SessionParameters.oracle</SqlSessionParameterListResourceId>
+      <SqlFieldParameterListResourceId>Page.13.SqlStatement.FieldParameters.oracle</SqlFieldParameterListResourceId>
+    </SqlStatement>
+  </ReportSqlStatements>
+  <ZeroRowLinkLocation />
+  <Refresh>false</Refresh>
+  <RefreshSeconds>10</RefreshSeconds>
+  <InlineEditing>
+    <Enabled>false</Enabled>
+    <UpdateSqlStatements>
+      <SqlStatement DatabaseType="default">
+        <SqlStatementTextResourceId>Page.13.UpdateSqlStatement.StatementText.default</SqlStatementTextResourceId>
+        <SqlInputParameterListResourceId>Page.13.UpdateSqlStatement.InputParameters.default</SqlInputParameterListResourceId>
+        <SqlSessionParameterListResourceId>Page.13.UpdateSqlStatement.SessionParameters.default</SqlSessionParameterListResourceId>
+        <SqlFieldParameterListResourceId>Page.13.UpdateSqlStatement.FieldParameters.default</SqlFieldParameterListResourceId>
+      </SqlStatement>
+    </UpdateSqlStatements>
+  </InlineEditing>
+  <DisableRowNum>false</DisableRowNum>
+  <EditLink>
+    <LinkPath>GenEdit.aspx?ID=7</LinkPath>
+    <TargetPageId>7</TargetPageId>
+    <TargetPageType>Edit</TargetPageType>
+    <TargetApplicationName />
+    <InternalLink>true</InternalLink>
+    <IsLinkPage>false</IsLinkPage>
+    <CrystalLink>false</CrystalLink>
+    <LinkParameters>
+      <LinkParameter Name="v_vchTo_ID" SourceColumn="to_id" ParameterType="Field" />
+      <LinkParameter Name="v_vchWhse_ID" SourceColumn="wh_id" ParameterType="Field" />
+    </LinkParameters>
+  </EditLink>
+  <PageInputParameterLists>
+    <PageInputParameterList DatabaseType="oracle" ResourceId="Page.13.InputParamList.oracle" />
+    <PageInputParameterList DatabaseType="sqlserver" ResourceId="Page.13.InputParamList.sqlserver" />
+  </PageInputParameterLists>
+  <PageSessionParameterLists />
+  <Chart>
+    <ChartType>0</ChartType>
+    <ChartPosition>0</ChartPosition>
+    <ChartWidth>0</ChartWidth>
+    <ChartHeight>0</ChartHeight>
+    <LegendEnabled>false</LegendEnabled>
+    <YaxisLabelsEnabled>true</YaxisLabelsEnabled>
+    <XaxisLabelsEnabled>true</XaxisLabelsEnabled>
+    <SeriesPointLabelsEnabled>false</SeriesPointLabelsEnabled>
+    <Is3dEnabled>true</Is3dEnabled>
+    <HorizontalGridLinesEnabled>true</HorizontalGridLinesEnabled>
+    <VerticalGridLinesEnabled>false</VerticalGridLinesEnabled>
+    <ChartSqlStatements />
+    <ChartSeriesColumns />
+    <ChartXAxisLabelColumns />
+  </Chart>
+  <RowOperations />
+  <ReturnParameterLists>
+    <string>email_address</string>
+    <string>v_vchTo_ID</string>
+    <string>v_vchWhse_ID</string>
+  </ReturnParameterLists>
+</ReportPage>
