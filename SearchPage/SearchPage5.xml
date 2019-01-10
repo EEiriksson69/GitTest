@@ -39,8 +39,8 @@
   <HeaderResourceId>Page.5.Header</HeaderResourceId>
   <FooterResourceId>Page.5.Footer</FooterResourceId>
   <QueryLink>
-    <LinkPath>GenReport.aspx?ID=2</LinkPath>
-    <TargetPageId>2</TargetPageId>
+    <LinkPath>GenReport.aspx?ID=13</LinkPath>
+    <TargetPageId>13</TargetPageId>
     <TargetPageType>Report</TargetPageType>
     <TargetApplicationName />
     <InternalLink>true</InternalLink>
