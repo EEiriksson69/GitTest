@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ResourceList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-highjump-com:webwise-resource-list">
   <ResourceItem CultureName="en-US" ResourceId="Page.7.Title">
-    <ResourceValue>Add/Edit Recipients</ResourceValue>
+    <ResourceValue>Change 001 Add/Edit Recipients</ResourceValue>
   </ResourceItem>
   <ResourceItem CultureName="en-US" ResourceId="Page.7.SqlStatement.StatementText.default">
     <ResourceValue>WHERE
